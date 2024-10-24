@@ -1,0 +1,60 @@
+          /*
+          Theme Name: OceanWP Enfant
+          Template: oceanwp
+         */
+
+
+          @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+
+          
+:root {
+    --primary-color:#ECE2DA;
+    --secondary-color:#326238;
+    --accent-color:#D2776A;
+    --hover-color:#C02E44;
+    --background-color:#FFFFFF;
+    --text-color:#000000;
+    
+}
+
+/* Style global */
+body {
+    font-family: 'Syne', sans-serif; /* Police globale */
+    background-color: var(--background-color); /* Utilisation de la couleur de fond */
+    color: var(--text-color); /* Couleur du texte */
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style des titres */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Liens */
+a {
+    color: #000000; /* Couleur des liens */
+    text-decoration: none;
+}
+
+a:hover {
+    color:#000000 ;
+    /* Couleur des liens au survol */
+    font-weight: bold
+}
+
+/* Boutons */
+button, .button {
+    background-color:#D2776A; /* Couleur de fond des boutons */
+    color: #FFFFFF; /* Couleur du texte des boutons */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover, .button:hover {
+    background-color:#C02E44;
+   /* Couleur de fond au survol */
+}
