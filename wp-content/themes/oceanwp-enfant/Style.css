@@ -17,6 +17,56 @@
     
 }
 
+header {
+    background-color: #FFFFFF; /* Fond du header */
+    padding: 20px 0; /* Espacement autour du header */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Alignement des éléments */
+    align-items: center; /* Alignement vertical */
+    max-width: 1200px; /* Largeur maximale */
+    margin: 0 auto; /* Centrage */
+    padding: 0 20px; /* Espacement intérieur */
+}
+
+.logo img {
+    max-height: 50px; /* Ajuste la hauteur du logo */
+}
+
+.nav-menu {
+    list-style: none; /* Supprime les puces de la liste */
+    display: flex; /* Affiche les éléments de la liste horizontalement */
+    gap: 20px; /* Espacement entre les liens */
+}
+
+.nav-link {
+    background-color: #000000; /* Fond des liens */
+    color: #FFFFFF; /* Couleur du texte */
+    padding: 10px 15px; /* Espacement autour du texte */
+    border-radius: 5px; /* Coins arrondis */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+.nav-link:hover {
+    background-color: #D2776A; /* Change la couleur au survol */
+}
+
+.button {
+    background-color: #D2776A; /* Fond du bouton "Commander" */
+    color: #FFFFFF; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement autour du texte du bouton */
+    border: none; /* Supprime la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+.button:hover {
+    background-color: #C02E44; /* Change la couleur au survol */
+}
+
+
 /* Style global */
 body {
     font-family: 'Syne', sans-serif; /* Police globale */
