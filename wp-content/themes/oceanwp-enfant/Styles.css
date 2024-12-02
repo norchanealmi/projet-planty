@@ -1,0 +1,75 @@
+/* Corps de la page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Syne', sans-serif;
+    background-color: #ECE2DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur du formulaire */
+.form-container {
+    background-color: #ECE2DA; /* Même couleur que celle du body */
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* Titre */
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+/* Champs de texte */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+/* Bouton */
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #E0B9B4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d29b96;
+}

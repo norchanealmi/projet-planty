@@ -1,25 +1,32 @@
-          /*
-          Theme Name: OceanWP Enfant
-          Template: oceanwp
-         */
+/*
+Theme Name: oceanwp-enfant
+Template: oceanwp
+Author: admin
+Description: Theme enfant pour OceanWP
+Version: 1.0
+*/
 
+/* Importation de la police Google */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
 
-          @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
-
-          
 :root {
-    --primary-color:#ECE2DA;
-    --secondary-color:#326238;
-    --accent-color:#D2776A;
-    --hover-color:#C02E44;
-    --background-color:#FFFFFF;
-    --text-color:#000000;
-    
+    --primary-color: #ECE2DA;
+    --secondary-color: #326238;
+    --accent-color: #D2776A;
+    --hover-color: #C02E44;
+    --background-color: #FFFFFF;
+    --text-color: #000000;
 }
 
-header {
-    background-color: #FFFFFF; /* Fond du header */
-    padding: 20px 0; /* Espacement autour du header */
+header a {
+    color: #000000; /* Couleur de base des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    font-weight: normal; /* Poids normal par défaut */
+}
+
+header a:hover {
+    color: #000000; /* Couleur noire au survol */
+    font-weight:bold; /* Texte en gras au survol */
 }
 
 .container {
@@ -35,37 +42,42 @@ header {
     max-height: 50px; /* Ajuste la hauteur du logo */
 }
 
-.nav-menu {
+.nav-menu  {
     list-style: none; /* Supprime les puces de la liste */
     display: flex; /* Affiche les éléments de la liste horizontalement */
     gap: 20px; /* Espacement entre les liens */
 }
 
+/* Lien dans le header */
 .nav-link {
-    background-color: #000000; /* Fond des liens */
-    color: #FFFFFF; /* Couleur du texte */
+    background-color: transparent; /* Pas de fond */
+    color: #000000; /* Texte noir */
     padding: 10px 15px; /* Espacement autour du texte */
-    border-radius: 5px; /* Coins arrondis */
     text-decoration: none; /* Supprime le soulignement */
-}
+    font-weight: 400; /* Poids du texte normal */
+} 
 
+/* Lien dans le header au survol */
 .nav-link:hover {
-    background-color: #D2776A; /* Change la couleur au survol */
+    color: #000000; /* Texte noir au survol */
+    font-weight:700; /* Texte en gras */
+    background-color: transparent; /* Pas de fond */
 }
 
-.button {
-    background-color: #D2776A; /* Fond du bouton "Commander" */
-    color: #FFFFFF; /* Couleur du texte du bouton */
-    padding: 10px 20px; /* Espacement autour du texte du bouton */
-    border: none; /* Supprime la bordure */
-    border-radius: 5px; /* Coins arrondis */
+.admin-link{
+    background-color: transparent; /* Pas de fond */
+    color: #000000; /* Texte noir */
+    padding: 10px 15px; /* Espacement autour du texte */
     text-decoration: none; /* Supprime le soulignement */
-}
+    font-weight: 400; /* Poids du texte normal */
+} 
 
-.button:hover {
-    background-color: #C02E44; /* Change la couleur au survol */
-}
 
+.admin-link:hover {
+    color: #000000; /* Texte noir au survol */
+    font-weight:700; /* Texte en gras */
+    background-color: transparent; /* Pas de fond */
+}
 
 /* Style global */
 body {
@@ -83,21 +95,20 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
 }
 
-/* Liens */
+/* Liens généraux */
 a {
     color: #000000; /* Couleur des liens */
     text-decoration: none;
 }
 
 a:hover {
-    color:#000000 ;
-    /* Couleur des liens au survol */
-    font-weight: bold
+    color: #000000; /* Couleur des liens au survol */
+    font-weight: bold; /* Texte en gras au survol */
 }
 
 /* Boutons */
 button, .button {
-    background-color:#D2776A; /* Couleur de fond des boutons */
+    background-color: #D2776A; /* Couleur de fond des boutons */
     color: #FFFFFF; /* Couleur du texte des boutons */
     border: none;
     padding: 10px 20px;
@@ -105,6 +116,70 @@ button, .button {
 }
 
 button:hover, .button:hover {
-    background-color:#C02E44;
-   /* Couleur de fond au survol */
+    background-color: #C02E44; /* Couleur de fond au survol */
+}
+
+/* Style des liens dans le footer */
+footer a {
+    color: #000000 !important; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: 400 !important; /* Poids du texte normal */
+    transition: font-weight 0.3s ease, color 0.3s ease; /* Transition fluide */
+}
+
+/* Lien du footer au survol */
+footer a:hover {
+    font-weight: 700 !important; /* Texte en gras au survol */
+    color: #000000 !important; /* Couleur du texte noire au survol */
+}
+
+/* Lien "Admin" dans le header */
+a[href="http://localhost/projet-planty/wp-admin/"]:hover {
+    color: #000000; /* Texte noir au survol */
+    font-weight: bold; /* Texte en gras */
+    background-color: transparent; /* Pas de fond */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+/* Réactivité : adaptation pour les petits écrans */
+@media (max-width: 768px) {
+    /* Ajustement du container pour les tablettes */
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Logo plus petit sur les tablettes et mobiles */
+    .logo img {
+        max-height: 40px;
+    }
+
+    /* Menu de navigation : empiler les éléments sur mobile */
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Espacement des éléments du menu */
+    .nav-link {
+        padding: 8px 10px;
+    }
+
+    /* Boutons : ajuster la taille pour les petits écrans */
+    .button {
+        padding: 8px 15px;
+    }
+}
+
+/* Réactivité pour les très petits écrans (smartphones) */
+@media (max-width: 480px) {
+    /* Ajuster la taille des titres */
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.2em;
+    }
+
+    /* Ajuster les paddings des boutons et liens */
+    .button, .nav-link {
+        padding: 6px 12px;
+    }
 }

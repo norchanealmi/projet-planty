@@ -1,0 +1,3970 @@
+<!DOCTYPE html>
+<html class="html" lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+
+    <title>Planty</title>
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Planty &raquo; Flux"
+      href="http://localhost/projet-planty/feed/"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Planty &raquo; Flux des commentaires"
+      href="http://localhost/projet-planty/comments/feed/"
+    />
+    <script>
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            "http:\/\/localhost\/projet-planty\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.2",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case "flag":
+              return n(
+                e,
+                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+              )
+                ? !1
+                : !n(
+                    e,
+                    "\ud83c\uddfa\ud83c\uddf3",
+                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                  ) &&
+                    !n(
+                      e,
+                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                    );
+            case "emoji":
+              return !n(
+                e,
+                "\ud83d\udc26\u200d\u2b1b",
+                "\ud83d\udc26\u200b\u2b1b"
+              );
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              "undefined" != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement("canvas"),
+            a = r.getContext("2d", { willReadFrequently: !0 }),
+            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement("script");
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        "undefined" != typeof Promise &&
+          ((o = "wpEmojiSettingsSupports"),
+          (s = ["flag", "emoji"]),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener("DOMContentLoaded", e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  "object" == typeof e &&
+                  "number" == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  "object" == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                "undefined" != typeof Worker &&
+                "undefined" != typeof OffscreenCanvas &&
+                "undefined" != typeof URL &&
+                URL.createObjectURL &&
+                "undefined" != typeof Blob
+              )
+                try {
+                  var e =
+                      "postMessage(" +
+                      f.toString() +
+                      "(" +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ","
+                      ) +
+                      "));",
+                    r = new Blob([e], { type: "text/javascript" }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: "wpTestEmojiSupports",
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  "flag" !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+    </script>
+    <link
+      rel="stylesheet"
+      id="dashicons-css"
+      href="http://localhost/projet-planty/wp-includes/css/dashicons.min.css?ver=6.6.2"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="admin-bar-css"
+      href="http://localhost/projet-planty/wp-includes/css/admin-bar.min.css?ver=6.6.2"
+      media="all"
+    />
+    <style id="admin-bar-inline-css">
+      @media screen {
+        html {
+          margin-top: 32px !important;
+        }
+      }
+      @media screen and (max-width: 782px) {
+        html {
+          margin-top: 46px !important;
+        }
+      }
+
+      @media print {
+        #wpadminbar {
+          display: none;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="hfe-widgets-style-css"
+      href="http://localhost/projet-planty/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.44"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-icons-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.31.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-common-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.24.7"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="e-theme-ui-light-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.24.7"
+      media="all"
+    />
+    <style id="wp-emoji-styles-inline-css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <style id="classic-theme-styles-inline-css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <style id="global-styles-inline-css">
+      :root {
+        --wp--preset--aspect-ratio--square: 1;
+        --wp--preset--aspect-ratio--4-3: 4/3;
+        --wp--preset--aspect-ratio--3-4: 3/4;
+        --wp--preset--aspect-ratio--3-2: 3/2;
+        --wp--preset--aspect-ratio--2-3: 2/3;
+        --wp--preset--aspect-ratio--16-9: 16/9;
+        --wp--preset--aspect-ratio--9-16: 9/16;
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .is-layout-flex > :is(*, div) {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      .is-layout-grid > :is(*, div) {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :root :where(.wp-block-pullquote) {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="contact-form-7-css"
+      href="http://localhost/projet-planty/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="hfe-style-css"
+      href="http://localhost/projet-planty/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.44"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-frontend-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.24.7"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="swiper-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="e-swiper-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.24.7"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-wp-admin-bar-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/css/admin-bar.min.css?ver=3.24.7"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-9-css"
+      href="http://localhost/projet-planty/wp-content/uploads/elementor/css/post-9.css?ver=1732103659"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-heading-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.24.7"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-image-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.24.7"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="e-shapes-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css?ver=3.24.7"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-text-editor-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.24.7"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-599-css"
+      href="http://localhost/projet-planty/wp-content/uploads/elementor/css/post-599.css?ver=1732123685"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-17-css"
+      href="http://localhost/projet-planty/wp-content/uploads/elementor/css/post-17.css?ver=1732209767"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-2348-css"
+      href="http://localhost/projet-planty/wp-content/uploads/elementor/css/post-2348.css?ver=1732123863"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="parent-style-css"
+      href="http://localhost/projet-planty/wp-content/themes/oceanwp/style.css?ver=6.6.2"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="child-style-css"
+      href="http://localhost/projet-planty/wp-content/themes/oceanwp-enfant/style.css?ver=6.6.2"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="font-awesome-css"
+      href="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.4.2"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="simple-line-icons-css"
+      href="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="oceanwp-style-css"
+      href="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/css/style.min.css?ver=1.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="oceanwp-google-font-abeezee-css"
+      href="http://localhost/projet-planty/wp-content/uploads/oceanwp-webfonts-css/2fb51055b45aa4b071738b4904220b5f.css?ver=6.6.2"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ocean-admin-bar-css"
+      href="http://localhost/projet-planty/wp-content/plugins/ocean-extra/includes/admin-bar/assets/css/admin-bar.css?ver=1.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="hfe-icons-list-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.24.3"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="hfe-social-icons-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.24.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="hfe-social-share-icons-brands-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css?ver=5.15.3"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="hfe-social-share-icons-fontawesome-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css?ver=5.15.3"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="hfe-nav-menu-icons-css"
+      href="http://localhost/projet-planty/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css?ver=5.15.3"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="oe-widgets-style-css"
+      href="http://localhost/projet-planty/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=6.6.2"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="google-fonts-1-css"
+      href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSyne%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.6.2"
+      media="all"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      id="jquery-core-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      id="jquery-migrate-js"
+    ></script>
+    <link
+      rel="https://api.w.org/"
+      href="http://localhost/projet-planty/wp-json/"
+    />
+    <link
+      rel="alternate"
+      title="JSON"
+      type="application/json"
+      href="http://localhost/projet-planty/wp-json/wp/v2/pages/599"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="http://localhost/projet-planty/xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.6.2" />
+    <link rel="canonical" href="http://localhost/projet-planty/" />
+    <link rel="shortlink" href="http://localhost/projet-planty/" />
+    <link
+      rel="alternate"
+      title="oEmbed (JSON)"
+      type="application/json+oembed"
+      href="http://localhost/projet-planty/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fprojet-planty%2F"
+    />
+    <link
+      rel="alternate"
+      title="oEmbed (XML)"
+      type="text/xml+oembed"
+      href="http://localhost/projet-planty/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fprojet-planty%2F&#038;format=xml"
+    />
+    <meta
+      name="generator"
+      content="Elementor 3.24.7; features: e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap"
+    />
+    <style>
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload),
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload)
+        * {
+        background-image: none !important;
+      }
+      @media screen and (max-height: 1024px) {
+        .e-con.e-parent:nth-of-type(n + 3):not(.e-lazyloaded):not(
+            .e-no-lazyload
+          ),
+        .e-con.e-parent:nth-of-type(n + 3):not(.e-lazyloaded):not(
+            .e-no-lazyload
+          )
+          * {
+          background-image: none !important;
+        }
+      }
+      @media screen and (max-height: 640px) {
+        .e-con.e-parent:nth-of-type(n + 2):not(.e-lazyloaded):not(
+            .e-no-lazyload
+          ),
+        .e-con.e-parent:nth-of-type(n + 2):not(.e-lazyloaded):not(
+            .e-no-lazyload
+          )
+          * {
+          background-image: none !important;
+        }
+      }
+    </style>
+    <style id="wp-custom-css">
+      /* Custom hover color to the trainers social icons */
+      .elementor-widget.custom-social .elementor-social-icon:hover {
+        opacity: 1;
+        background-color: #0eb290;
+        border-color: #0eb290;
+        color: #fff;
+      } /* Margin bottom to the subscribe title */
+      .elementor-widget.subscribe-tilte {
+        margin: 0 0 10px;
+      } /* Placeholders color*/
+      #searchform-dropdown input::-webkit-input-placeholder,
+      body .sidr-class-mobile-searchform input::-webkit-input-placeholder {
+        color: #81e4cf;
+      }
+      #searchform-dropdown input::-moz-placeholder,
+      body .sidr-class-mobile-searchform input::-moz-placeholder {
+        color: #81e4cf;
+      }
+      #searchform-dropdown input:-ms-input-placeholder,
+      body .sidr-class-mobile-searchform input:-ms-input-placeholder {
+        color: #81e4cf;
+      } /* Scroll up button */
+      #scroll-top {
+        right: 0;
+        bottom: 0;
+        border-radius: 0;
+      }
+      #scroll-top,
+      #scroll-top:hover {
+        background-color: transparent;
+      } /* Footer */
+      #footer-widgets .footer-box {
+        text-align: center;
+      }
+      #footer-widgets .social-widget .style-light li a,
+      #footer-widgets .social-widget .style-dark li a,
+      #footer-widgets .social-widget .style-colored li a {
+        background-color: #263036;
+        color: #708e9f;
+        border-color: #263036;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+      }
+      #footer-widgets .social-widget .style-light li a:hover,
+      #footer-widgets .social-widget .style-dark li a:hover,
+      #footer-widgets .social-widget .style-colored li a:hover {
+        background-color: #0eb290;
+        color: #fff !important;
+        border-color: #0eb290 !important;
+      } /* Responsive */
+      @media (max-width: 767px) {
+        /* Center the buttons in the hero */
+        .elementor-element.hero-btn {
+          text-align: center !important;
+        } /* Center elements on mobile */
+        .elementor-element.center-mobile,
+        .elementor-element.center-mobile .elementor-icon-box-wrapper {
+          text-align: center !important;
+        } /* Margin top "Working" title on the contact page */
+        .elementor-element.margin-mobile .elementor-heading-title {
+          margin-top: 30px;
+        } /* Social icons on the contact page */
+        .elementor-social-icons-wrapper {
+          text-align: left;
+        }
+        .elementor-element.contact-social .elementor-social-icon {
+          width: 44px;
+          height: 44px;
+          line-height: 44px;
+        }
+        .elementor-element.contact-social .elementor-social-icon:nth-child(4) {
+          margin-right: 5px !important;
+        }
+      }
+      @media (max-width: 480px) {
+        /* Title size in the hero */
+        .elementor-element.hero-title .elementor-heading-title {
+          font-size: 30px;
+        }
+      }
+    </style>
+    <!-- OceanWP CSS -->
+    <style type="text/css">
+      /* Colors */
+      a:hover,
+      a.light:hover,
+      .theme-heading .text::before,
+      .theme-heading .text::after,
+      #top-bar-content > a:hover,
+      #top-bar-social li.oceanwp-email a:hover,
+      #site-navigation-wrap .dropdown-menu > li > a:hover,
+      #site-header.medium-header #medium-searchform button:hover,
+      .oceanwp-mobile-menu-icon a:hover,
+      .blog-entry.post .blog-entry-header .entry-title a:hover,
+      .blog-entry.post .blog-entry-readmore a:hover,
+      .blog-entry.thumbnail-entry .blog-entry-category a,
+      ul.meta li a:hover,
+      .dropcap,
+      .single nav.post-navigation .nav-links .title,
+      body .related-post-title a:hover,
+      body #wp-calendar caption,
+      body .contact-info-widget.default i,
+      body .contact-info-widget.big-icons i,
+      body .custom-links-widget .oceanwp-custom-links li a:hover,
+      body .custom-links-widget .oceanwp-custom-links li a:hover:before,
+      body .posts-thumbnails-widget li a:hover,
+      body .social-widget li.oceanwp-email a:hover,
+      .comment-author .comment-meta .comment-reply-link,
+      #respond #cancel-comment-reply-link:hover,
+      #footer-widgets .footer-box a:hover,
+      #footer-bottom a:hover,
+      #footer-bottom #footer-bottom-menu a:hover,
+      .sidr a:hover,
+      .sidr-class-dropdown-toggle:hover,
+      .sidr-class-menu-item-has-children.active > a,
+      .sidr-class-menu-item-has-children.active
+        > a
+        > .sidr-class-dropdown-toggle,
+      input[type="checkbox"]:checked:before {
+        color: #0eb290;
+      }
+      .single nav.post-navigation .nav-links .title .owp-icon use,
+      .blog-entry.post .blog-entry-readmore a:hover .owp-icon use,
+      body .contact-info-widget.default .owp-icon use,
+      body .contact-info-widget.big-icons .owp-icon use {
+        stroke: #0eb290;
+      }
+      input[type="button"],
+      input[type="reset"],
+      input[type="submit"],
+      button[type="submit"],
+      .button,
+      #site-navigation-wrap .dropdown-menu > li.btn > a > span,
+      .thumbnail:hover i,
+      .thumbnail:hover .link-post-svg-icon,
+      .post-quote-content,
+      .omw-modal .omw-close-modal,
+      body .contact-info-widget.big-icons li:hover i,
+      body .contact-info-widget.big-icons li:hover .owp-icon,
+      body div.wpforms-container-full .wpforms-form input[type="submit"],
+      body div.wpforms-container-full .wpforms-form button[type="submit"],
+      body div.wpforms-container-full .wpforms-form .wpforms-page-button {
+        background-color: #0eb290;
+      }
+      .widget-title {
+        border-color: #0eb290;
+      }
+      blockquote {
+        border-color: #0eb290;
+      }
+      .wp-block-quote {
+        border-color: #0eb290;
+      }
+      #searchform-dropdown {
+        border-color: #0eb290;
+      }
+      .dropdown-menu .sub-menu {
+        border-color: #0eb290;
+      }
+      .blog-entry.large-entry .blog-entry-readmore a:hover {
+        border-color: #0eb290;
+      }
+      .oceanwp-newsletter-form-wrap input[type="email"]:focus {
+        border-color: #0eb290;
+      }
+      .social-widget li.oceanwp-email a:hover {
+        border-color: #0eb290;
+      }
+      #respond #cancel-comment-reply-link:hover {
+        border-color: #0eb290;
+      }
+      body .contact-info-widget.big-icons li:hover i {
+        border-color: #0eb290;
+      }
+      body .contact-info-widget.big-icons li:hover .owp-icon {
+        border-color: #0eb290;
+      }
+      #footer-widgets .oceanwp-newsletter-form-wrap input[type="email"]:focus {
+        border-color: #0eb290;
+      }
+      input[type="button"]:hover,
+      input[type="reset"]:hover,
+      input[type="submit"]:hover,
+      button[type="submit"]:hover,
+      input[type="button"]:focus,
+      input[type="reset"]:focus,
+      input[type="submit"]:focus,
+      button[type="submit"]:focus,
+      .button:hover,
+      .button:focus,
+      #site-navigation-wrap .dropdown-menu > li.btn > a:hover > span,
+      .post-quote-author,
+      .omw-modal .omw-close-modal:hover,
+      body div.wpforms-container-full .wpforms-form input[type="submit"]:hover,
+      body div.wpforms-container-full .wpforms-form button[type="submit"]:hover,
+      body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
+        background-color: #00967d;
+      }
+      body .theme-button,
+      body input[type="submit"],
+      body button[type="submit"],
+      body button,
+      body .button,
+      body div.wpforms-container-full .wpforms-form input[type="submit"],
+      body div.wpforms-container-full .wpforms-form button[type="submit"],
+      body div.wpforms-container-full .wpforms-form .wpforms-page-button {
+        border-color: #ffffff;
+      }
+      body .theme-button:hover,
+      body input[type="submit"]:hover,
+      body button[type="submit"]:hover,
+      body button:hover,
+      body .button:hover,
+      body div.wpforms-container-full .wpforms-form input[type="submit"]:hover,
+      body div.wpforms-container-full .wpforms-form input[type="submit"]:active,
+      body div.wpforms-container-full .wpforms-form button[type="submit"]:hover,
+      body
+        div.wpforms-container-full
+        .wpforms-form
+        button[type="submit"]:active,
+      body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover,
+      body
+        div.wpforms-container-full
+        .wpforms-form
+        .wpforms-page-button:active {
+        border-color: #ffffff;
+      }
+      form input[type="text"],
+      form input[type="password"],
+      form input[type="email"],
+      form input[type="url"],
+      form input[type="date"],
+      form input[type="month"],
+      form input[type="time"],
+      form input[type="datetime"],
+      form input[type="datetime-local"],
+      form input[type="week"],
+      form input[type="number"],
+      form input[type="search"],
+      form input[type="tel"],
+      form input[type="color"],
+      form select,
+      form textarea,
+      .select2-container .select2-choice,
+      .woocommerce
+        .woocommerce-checkout
+        .select2-container--default
+        .select2-selection--single {
+        border-color: #f6f6f6;
+      }
+      body div.wpforms-container-full .wpforms-form input[type="date"],
+      body div.wpforms-container-full .wpforms-form input[type="datetime"],
+      body
+        div.wpforms-container-full
+        .wpforms-form
+        input[type="datetime-local"],
+      body div.wpforms-container-full .wpforms-form input[type="email"],
+      body div.wpforms-container-full .wpforms-form input[type="month"],
+      body div.wpforms-container-full .wpforms-form input[type="number"],
+      body div.wpforms-container-full .wpforms-form input[type="password"],
+      body div.wpforms-container-full .wpforms-form input[type="range"],
+      body div.wpforms-container-full .wpforms-form input[type="search"],
+      body div.wpforms-container-full .wpforms-form input[type="tel"],
+      body div.wpforms-container-full .wpforms-form input[type="text"],
+      body div.wpforms-container-full .wpforms-form input[type="time"],
+      body div.wpforms-container-full .wpforms-form input[type="url"],
+      body div.wpforms-container-full .wpforms-form input[type="week"],
+      body div.wpforms-container-full .wpforms-form select,
+      body div.wpforms-container-full .wpforms-form textarea {
+        border-color: #f6f6f6;
+      }
+      form input[type="text"]:focus,
+      form input[type="password"]:focus,
+      form input[type="email"]:focus,
+      form input[type="tel"]:focus,
+      form input[type="url"]:focus,
+      form input[type="search"]:focus,
+      form textarea:focus,
+      .select2-drop-active,
+      .select2-dropdown-open.select2-drop-above .select2-choice,
+      .select2-dropdown-open.select2-drop-above .select2-choices,
+      .select2-drop.select2-drop-above.select2-drop-active,
+      .select2-container-active .select2-choice,
+      .select2-container-active .select2-choices {
+        border-color: #e0e0e0;
+      }
+      body div.wpforms-container-full .wpforms-form input:focus,
+      body div.wpforms-container-full .wpforms-form textarea:focus,
+      body div.wpforms-container-full .wpforms-form select:focus {
+        border-color: #e0e0e0;
+      }
+      form input[type="text"],
+      form input[type="password"],
+      form input[type="email"],
+      form input[type="url"],
+      form input[type="date"],
+      form input[type="month"],
+      form input[type="time"],
+      form input[type="datetime"],
+      form input[type="datetime-local"],
+      form input[type="week"],
+      form input[type="number"],
+      form input[type="search"],
+      form input[type="tel"],
+      form input[type="color"],
+      form select,
+      form textarea,
+      .woocommerce
+        .woocommerce-checkout
+        .select2-container--default
+        .select2-selection--single {
+        background-color: #f6f6f6;
+      }
+      body div.wpforms-container-full .wpforms-form input[type="date"],
+      body div.wpforms-container-full .wpforms-form input[type="datetime"],
+      body
+        div.wpforms-container-full
+        .wpforms-form
+        input[type="datetime-local"],
+      body div.wpforms-container-full .wpforms-form input[type="email"],
+      body div.wpforms-container-full .wpforms-form input[type="month"],
+      body div.wpforms-container-full .wpforms-form input[type="number"],
+      body div.wpforms-container-full .wpforms-form input[type="password"],
+      body div.wpforms-container-full .wpforms-form input[type="range"],
+      body div.wpforms-container-full .wpforms-form input[type="search"],
+      body div.wpforms-container-full .wpforms-form input[type="tel"],
+      body div.wpforms-container-full .wpforms-form input[type="text"],
+      body div.wpforms-container-full .wpforms-form input[type="time"],
+      body div.wpforms-container-full .wpforms-form input[type="url"],
+      body div.wpforms-container-full .wpforms-form input[type="week"],
+      body div.wpforms-container-full .wpforms-form select,
+      body div.wpforms-container-full .wpforms-form textarea {
+        background-color: #f6f6f6;
+      }
+      .page-header .page-header-title,
+      .page-header.background-image-page-header .page-header-title {
+        color: #ffffff;
+      }
+      .site-breadcrumbs a,
+      .background-image-page-header .site-breadcrumbs a {
+        color: #ffffff;
+      }
+      .site-breadcrumbs a .owp-icon use,
+      .background-image-page-header .site-breadcrumbs a .owp-icon use {
+        stroke: #ffffff;
+      }
+      .site-breadcrumbs a:hover,
+      .background-image-page-header .site-breadcrumbs a:hover {
+        color: #0eb290;
+      }
+      .site-breadcrumbs a:hover .owp-icon use,
+      .background-image-page-header .site-breadcrumbs a:hover .owp-icon use {
+        stroke: #0eb290;
+      } /* OceanWP Style Settings CSS */
+      .container {
+        width: 1080px;
+      }
+      .theme-button,
+      input[type="submit"],
+      button[type="submit"],
+      button,
+      .button,
+      body div.wpforms-container-full .wpforms-form input[type="submit"],
+      body div.wpforms-container-full .wpforms-form button[type="submit"],
+      body div.wpforms-container-full .wpforms-form .wpforms-page-button {
+        border-style: solid;
+      }
+      .theme-button,
+      input[type="submit"],
+      button[type="submit"],
+      button,
+      .button,
+      body div.wpforms-container-full .wpforms-form input[type="submit"],
+      body div.wpforms-container-full .wpforms-form button[type="submit"],
+      body div.wpforms-container-full .wpforms-form .wpforms-page-button {
+        border-width: 1px;
+      }
+      form input[type="text"],
+      form input[type="password"],
+      form input[type="email"],
+      form input[type="url"],
+      form input[type="date"],
+      form input[type="month"],
+      form input[type="time"],
+      form input[type="datetime"],
+      form input[type="datetime-local"],
+      form input[type="week"],
+      form input[type="number"],
+      form input[type="search"],
+      form input[type="tel"],
+      form input[type="color"],
+      form select,
+      form textarea,
+      .woocommerce
+        .woocommerce-checkout
+        .select2-container--default
+        .select2-selection--single {
+        border-style: solid;
+      }
+      body div.wpforms-container-full .wpforms-form input[type="date"],
+      body div.wpforms-container-full .wpforms-form input[type="datetime"],
+      body
+        div.wpforms-container-full
+        .wpforms-form
+        input[type="datetime-local"],
+      body div.wpforms-container-full .wpforms-form input[type="email"],
+      body div.wpforms-container-full .wpforms-form input[type="month"],
+      body div.wpforms-container-full .wpforms-form input[type="number"],
+      body div.wpforms-container-full .wpforms-form input[type="password"],
+      body div.wpforms-container-full .wpforms-form input[type="range"],
+      body div.wpforms-container-full .wpforms-form input[type="search"],
+      body div.wpforms-container-full .wpforms-form input[type="tel"],
+      body div.wpforms-container-full .wpforms-form input[type="text"],
+      body div.wpforms-container-full .wpforms-form input[type="time"],
+      body div.wpforms-container-full .wpforms-form input[type="url"],
+      body div.wpforms-container-full .wpforms-form input[type="week"],
+      body div.wpforms-container-full .wpforms-form select,
+      body div.wpforms-container-full .wpforms-form textarea {
+        border-style: solid;
+      }
+      form input[type="text"],
+      form input[type="password"],
+      form input[type="email"],
+      form input[type="url"],
+      form input[type="date"],
+      form input[type="month"],
+      form input[type="time"],
+      form input[type="datetime"],
+      form input[type="datetime-local"],
+      form input[type="week"],
+      form input[type="number"],
+      form input[type="search"],
+      form input[type="tel"],
+      form input[type="color"],
+      form select,
+      form textarea {
+        border-radius: 3px;
+      }
+      body div.wpforms-container-full .wpforms-form input[type="date"],
+      body div.wpforms-container-full .wpforms-form input[type="datetime"],
+      body
+        div.wpforms-container-full
+        .wpforms-form
+        input[type="datetime-local"],
+      body div.wpforms-container-full .wpforms-form input[type="email"],
+      body div.wpforms-container-full .wpforms-form input[type="month"],
+      body div.wpforms-container-full .wpforms-form input[type="number"],
+      body div.wpforms-container-full .wpforms-form input[type="password"],
+      body div.wpforms-container-full .wpforms-form input[type="range"],
+      body div.wpforms-container-full .wpforms-form input[type="search"],
+      body div.wpforms-container-full .wpforms-form input[type="tel"],
+      body div.wpforms-container-full .wpforms-form input[type="text"],
+      body div.wpforms-container-full .wpforms-form input[type="time"],
+      body div.wpforms-container-full .wpforms-form input[type="url"],
+      body div.wpforms-container-full .wpforms-form input[type="week"],
+      body div.wpforms-container-full .wpforms-form select,
+      body div.wpforms-container-full .wpforms-form textarea {
+        border-radius: 3px;
+      }
+      #scroll-top {
+        color: #708e9f;
+      }
+      #scroll-top .owp-icon use {
+        stroke: #708e9f;
+      }
+      #scroll-top:hover {
+        color: #0eb290;
+      }
+      #scroll-top:hover .owp-icon use {
+        stroke: #708e9f;
+      }
+      .page-header,
+      .has-transparent-header .page-header {
+        padding: 100px 0 34px 0;
+      } /* Header */
+      #site-header.has-header-media .overlay-header-media {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      #site-header {
+        border-color: rgba(255, 255, 255, 0.3);
+      }
+      #site-logo #site-logo-inner a img,
+      #site-header.center-header #site-navigation-wrap .middle-site-logo a img {
+        max-width: 150px;
+      }
+      #site-navigation-wrap .dropdown-menu > li > a,
+      .oceanwp-mobile-menu-icon a,
+      #searchform-header-replace-close {
+        color: #ffffff;
+      }
+      #site-navigation-wrap .dropdown-menu > li > a .owp-icon use,
+      .oceanwp-mobile-menu-icon a .owp-icon use,
+      #searchform-header-replace-close .owp-icon use {
+        stroke: #ffffff;
+      }
+      a.sidr-class-toggle-sidr-close {
+        background-color: #0a997b;
+      }
+      #sidr,
+      #mobile-dropdown {
+        background-color: #0eb290;
+      }
+      #sidr li,
+      #sidr ul,
+      #mobile-dropdown ul li,
+      #mobile-dropdown ul li ul {
+        border-color: #0a997b;
+      }
+      body .sidr a,
+      body .sidr-class-dropdown-toggle,
+      #mobile-dropdown ul li a,
+      #mobile-dropdown ul li a .dropdown-toggle,
+      #mobile-fullscreen ul li a,
+      #mobile-fullscreen .oceanwp-social-menu.simple-social ul li a {
+        color: #abffee;
+      }
+      #mobile-fullscreen a.close .close-icon-inner,
+      #mobile-fullscreen a.close .close-icon-inner::after {
+        background-color: #abffee;
+      }
+      body .sidr a:hover,
+      body .sidr-class-dropdown-toggle:hover,
+      body .sidr-class-dropdown-toggle .fa,
+      body .sidr-class-menu-item-has-children.active > a,
+      body
+        .sidr-class-menu-item-has-children.active
+        > a
+        > .sidr-class-dropdown-toggle,
+      #mobile-dropdown ul li a:hover,
+      #mobile-dropdown ul li a .dropdown-toggle:hover,
+      #mobile-dropdown .menu-item-has-children.active > a,
+      #mobile-dropdown .menu-item-has-children.active > a > .dropdown-toggle,
+      #mobile-fullscreen ul li a:hover,
+      #mobile-fullscreen .oceanwp-social-menu.simple-social ul li a:hover {
+        color: #3be5cc;
+      }
+      #mobile-fullscreen a.close:hover .close-icon-inner,
+      #mobile-fullscreen a.close:hover .close-icon-inner::after {
+        background-color: #3be5cc;
+      }
+      body .sidr-class-mobile-searchform input,
+      #mobile-dropdown #mobile-menu-search form input {
+        background-color: #0a997b;
+      }
+      body .sidr-class-mobile-searchform input,
+      body .sidr-class-mobile-searchform input:focus,
+      #mobile-dropdown #mobile-menu-search form input,
+      #mobile-fullscreen #mobile-search input,
+      #mobile-fullscreen #mobile-search .search-text {
+        color: #ffffff;
+      }
+      body .sidr-class-mobile-searchform input,
+      #mobile-dropdown #mobile-menu-search form input,
+      #mobile-fullscreen #mobile-search input {
+        border-color: #027c52;
+      }
+      body .sidr-class-mobile-searchform input:focus,
+      #mobile-dropdown #mobile-menu-search form input:focus,
+      #mobile-fullscreen #mobile-search input:focus {
+        border-color: #35ccac;
+      }
+      .sidr-class-mobile-searchform button,
+      #mobile-dropdown #mobile-menu-search form button {
+        color: #35ccac;
+      }
+      .sidr-class-mobile-searchform button .owp-icon use,
+      #mobile-dropdown #mobile-menu-search form button .owp-icon use {
+        stroke: #35ccac;
+      }
+      .sidr-class-mobile-searchform button:hover,
+      #mobile-dropdown #mobile-menu-search form button:hover {
+        color: #abffee;
+      }
+      .sidr-class-mobile-searchform button:hover .owp-icon use,
+      #mobile-dropdown #mobile-menu-search form button:hover .owp-icon use {
+        stroke: #abffee;
+      } /* Blog CSS */
+      .single-post-header-wrap,
+      .single-header-ocean-6 .blog-post-title,
+      .single-header-ocean-7 .blog-post-title {
+        background-color: rgba(219, 128, 67, 0.99);
+      }
+      .single-post.content-max-width #wrap .thumbnail,
+      .single-post.content-max-width #wrap .wp-block-buttons,
+      .single-post.content-max-width #wrap .wp-block-verse,
+      .single-post.content-max-width #wrap .entry-header,
+      .single-post.content-max-width #wrap ul.meta,
+      .single-post.content-max-width #wrap .entry-content p,
+      .single-post.content-max-width #wrap .entry-content h1,
+      .single-post.content-max-width #wrap .entry-content h2,
+      .single-post.content-max-width #wrap .entry-content h3,
+      .single-post.content-max-width #wrap .entry-content h4,
+      .single-post.content-max-width #wrap .entry-content h5,
+      .single-post.content-max-width #wrap .entry-content h6,
+      .single-post.content-max-width #wrap .wp-block-image,
+      .single-post.content-max-width #wrap .wp-block-gallery,
+      .single-post.content-max-width #wrap .wp-block-video,
+      .single-post.content-max-width #wrap .wp-block-quote,
+      .single-post.content-max-width #wrap .wp-block-text-columns,
+      .single-post.content-max-width #wrap .wp-block-code,
+      .single-post.content-max-width #wrap .entry-content ul,
+      .single-post.content-max-width #wrap .entry-content ol,
+      .single-post.content-max-width #wrap .wp-block-cover-text,
+      .single-post.content-max-width #wrap .wp-block-cover,
+      .single-post.content-max-width #wrap .wp-block-columns,
+      .single-post.content-max-width #wrap .post-tags,
+      .single-post.content-max-width #wrap .comments-area,
+      .single-post.content-max-width #wrap .wp-block-embed,
+      #wrap .wp-block-separator.is-style-wide:not(.size-full) {
+        max-width: 900px;
+      }
+      .single-post.content-max-width #wrap .wp-block-image.alignleft,
+      .single-post.content-max-width #wrap .wp-block-image.alignright {
+        max-width: 450px;
+      }
+      .single-post.content-max-width #wrap .wp-block-image.alignleft {
+        margin-left: calc(50% - 450px);
+      }
+      .single-post.content-max-width #wrap .wp-block-image.alignright {
+        margin-right: calc(50% - 450px);
+      }
+      .single-post.content-max-width #wrap .wp-block-embed,
+      .single-post.content-max-width #wrap .wp-block-verse {
+        margin-left: auto;
+        margin-right: auto;
+      } /* Footer Widgets */
+      #footer-widgets {
+        background-color: #2e3b42;
+      }
+      #footer-widgets .footer-box a,
+      #footer-widgets a {
+        color: #708e9f;
+      }
+      #footer-widgets .footer-box a:hover,
+      #footer-widgets a:hover {
+        color: #0eb290;
+      } /* Footer Copyright */
+      #footer-bottom {
+        background-color: #263036;
+      }
+      #footer-bottom,
+      #footer-bottom p {
+        color: #9daae0;
+      }
+      #footer-bottom a,
+      #footer-bottom #footer-bottom-menu a {
+        color: #708e9f;
+      } /* Typography */
+      body {
+        font-family: ABeeZee;
+        font-size: 15px;
+        line-height: 1.8;
+        letter-spacing: 0.4px;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      .theme-heading,
+      .widget-title,
+      .oceanwp-widget-recent-posts-title,
+      .comment-reply-title,
+      .entry-title,
+      .sidebar-box .widget-title {
+        line-height: 1.4;
+      }
+      h1 {
+        font-size: 23px;
+        line-height: 1.4;
+      }
+      h2 {
+        font-size: 20px;
+        line-height: 1.4;
+      }
+      h3 {
+        font-size: 18px;
+        line-height: 1.4;
+      }
+      h4 {
+        font-size: 17px;
+        line-height: 1.4;
+      }
+      h5 {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+      h6 {
+        font-size: 15px;
+        line-height: 1.4;
+      }
+      #top-bar-content,
+      #top-bar-social-alt {
+        font-size: 12px;
+        line-height: 1.8;
+      }
+      #site-logo a.site-logo-text {
+        font-size: 24px;
+        line-height: 1.8;
+      }
+      #site-navigation-wrap .dropdown-menu > li > a,
+      #site-header.full_screen-header .fs-dropdown-menu > li > a,
+      #site-header.top-header #site-navigation-wrap .dropdown-menu > li > a,
+      #site-header.center-header #site-navigation-wrap .dropdown-menu > li > a,
+      #site-header.medium-header #site-navigation-wrap .dropdown-menu > li > a,
+      .oceanwp-mobile-menu-icon a {
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+      .dropdown-menu ul li a.menu-link,
+      #site-header.full_screen-header .fs-dropdown-menu ul.sub-menu li a {
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+      }
+      .sidr-class-dropdown-menu li a,
+      a.sidr-class-toggle-sidr-close,
+      #mobile-dropdown ul li a,
+      body #mobile-fullscreen ul li a {
+        font-size: 15px;
+        line-height: 1.8;
+      }
+      .blog-entry.post .blog-entry-header .entry-title a {
+        font-size: 24px;
+        line-height: 1.4;
+      }
+      .ocean-single-post-header .single-post-title {
+        font-size: 34px;
+        line-height: 1.4;
+        letter-spacing: 0.6px;
+      }
+      .ocean-single-post-header ul.meta-item li,
+      .ocean-single-post-header ul.meta-item li a {
+        font-size: 13px;
+        line-height: 1.4;
+        letter-spacing: 0.6px;
+      }
+      .ocean-single-post-header .post-author-name,
+      .ocean-single-post-header .post-author-name a {
+        font-size: 14px;
+        line-height: 1.4;
+        letter-spacing: 0.6px;
+      }
+      .ocean-single-post-header .post-author-description {
+        font-size: 12px;
+        line-height: 1.4;
+        letter-spacing: 0.6px;
+      }
+      .single-post .entry-title {
+        line-height: 1.4;
+        letter-spacing: 0.6px;
+      }
+      .single-post ul.meta li,
+      .single-post ul.meta li a {
+        font-size: 14px;
+        line-height: 1.4;
+        letter-spacing: 0.6px;
+      }
+      .sidebar-box .widget-title,
+      .sidebar-box.widget_block .wp-block-heading {
+        font-size: 13px;
+        line-height: 1;
+        letter-spacing: 1px;
+      }
+      #footer-widgets .footer-box .widget-title {
+        font-size: 13px;
+        line-height: 1;
+        letter-spacing: 1px;
+      }
+      #footer-bottom #copyright {
+        font-size: 11px;
+        line-height: 1;
+        letter-spacing: 1px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      #footer-bottom #footer-bottom-menu {
+        font-size: 12px;
+        line-height: 1;
+      }
+      .woocommerce-store-notice.demo_store {
+        line-height: 2;
+        letter-spacing: 1.5px;
+      }
+      .demo_store .woocommerce-store-notice__dismiss-link {
+        line-height: 2;
+        letter-spacing: 1.5px;
+      }
+      .woocommerce ul.products li.product li.title h2,
+      .woocommerce ul.products li.product li.title a {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .woocommerce ul.products li.product li.category,
+      .woocommerce ul.products li.product li.category a {
+        font-size: 12px;
+        line-height: 1;
+      }
+      .woocommerce ul.products li.product .price {
+        font-size: 18px;
+        line-height: 1;
+      }
+      .woocommerce ul.products li.product .button,
+      .woocommerce ul.products li.product .product-inner .added_to_cart {
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 1px;
+      }
+      .woocommerce ul.products li.owp-woo-cond-notice span,
+      .woocommerce ul.products li.owp-woo-cond-notice a {
+        font-size: 16px;
+        line-height: 1;
+        letter-spacing: 1px;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+      .woocommerce div.product .product_title {
+        font-size: 24px;
+        line-height: 1.4;
+        letter-spacing: 0.6px;
+      }
+      .woocommerce div.product p.price {
+        font-size: 36px;
+        line-height: 1;
+      }
+      .woocommerce .owp-btn-normal .summary form button.button,
+      .woocommerce .owp-btn-big .summary form button.button,
+      .woocommerce .owp-btn-very-big .summary form button.button {
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+      .woocommerce div.owp-woo-single-cond-notice span,
+      .woocommerce div.owp-woo-single-cond-notice a {
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+      .ocean-preloader--active .preloader-after-content {
+        font-size: 20px;
+        line-height: 1.8;
+        letter-spacing: 0.6px;
+      }
+    </style>
+  </head>
+
+  <body
+    class="home page-template-default page page-id-599 logged-in admin-bar no-customize-support wp-embed-responsive ehf-header ehf-footer ehf-template-oceanwp ehf-stylesheet-oceanwp-enfant oceanwp-theme dropdown-mobile has-transparent-header default-breakpoint content-full-screen page-header-disabled has-breadcrumbs no-margins elementor-default elementor-kit-9 elementor-page elementor-page-599"
+    itemscope="itemscope"
+    itemtype="https://schema.org/WebPage"
+  >
+    <script>
+      (function () {
+        var request,
+          b = document.body,
+          c = "className",
+          cs = "customize-support",
+          rcs = new RegExp("(^|\\s+)(no-)?" + cs + "(\\s+|$)");
+
+        request = true;
+
+        b[c] = b[c].replace(rcs, " ");
+        // The customizer requires postMessage and CORS (if the site is cross domain).
+        b[c] += (window.postMessage && request ? " " : " no-") + cs;
+      })();
+    </script>
+    <div id="wpadminbar" class="nojq nojs">
+      <div
+        class="quicklinks"
+        id="wp-toolbar"
+        role="navigation"
+        aria-label="Barre d’outils"
+      >
+        <ul role="menu" id="wp-admin-bar-root-default" class="ab-top-menu">
+          <li role="group" id="wp-admin-bar-wp-logo" class="menupop">
+            <a
+              class="ab-item"
+              role="menuitem"
+              aria-expanded="false"
+              href="http://localhost/projet-planty/wp-admin/about.php"
+              ><span class="ab-icon" aria-hidden="true"></span
+              ><span class="screen-reader-text">À propos de WordPress</span></a
+            >
+            <div class="ab-sub-wrapper">
+              <ul
+                role="menu"
+                aria-label="À propos de WordPress"
+                id="wp-admin-bar-wp-logo-default"
+                class="ab-submenu"
+              >
+                <li role="group" id="wp-admin-bar-about">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/about.php"
+                    >À propos de WordPress</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-contribute">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/contribute.php"
+                    >Contribuer</a
+                  >
+                </li>
+              </ul>
+              <ul
+                role="menu"
+                aria-label="À propos de WordPress"
+                id="wp-admin-bar-wp-logo-external"
+                class="ab-sub-secondary ab-submenu"
+              >
+                <li role="group" id="wp-admin-bar-wporg">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="https://fr.wordpress.org/"
+                    >Site de WordPress-FR</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-documentation">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="https://fr.wordpress.org/support/"
+                    >Documentation</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-learn">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="https://learn.wordpress.org/"
+                    >Apprendre WordPress</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-support-forums">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="https://wpfr.net/support"
+                    >Forums de support</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-feedback">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="https://wordpress.org/support/forum/requests-and-feedback"
+                    >Vos retours</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li role="group" id="wp-admin-bar-site-name" class="menupop">
+            <a
+              class="ab-item"
+              role="menuitem"
+              aria-expanded="false"
+              href="http://localhost/projet-planty/wp-admin/"
+              >Planty</a
+            >
+            <div class="ab-sub-wrapper">
+              <ul
+                role="menu"
+                aria-label="Planty"
+                id="wp-admin-bar-site-name-default"
+                class="ab-submenu"
+              >
+                <li role="group" id="wp-admin-bar-dashboard">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/"
+                    >Tableau de bord</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-plugins">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/plugins.php"
+                    >Extensions</a
+                  >
+                </li>
+              </ul>
+              <ul
+                role="menu"
+                aria-label="Planty"
+                id="wp-admin-bar-appearance"
+                class="ab-submenu"
+              >
+                <li role="group" id="wp-admin-bar-themes">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/themes.php"
+                    >Thèmes</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-widgets">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/widgets.php"
+                    >Widgets</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-menus">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/nav-menus.php"
+                    >Menus</a
+                  >
+                </li>
+                <li
+                  role="group"
+                  id="wp-admin-bar-header"
+                  class="hide-if-customize"
+                >
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/themes.php?page=custom-header"
+                    >Entête</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li
+            role="group"
+            id="wp-admin-bar-customize"
+            class="hide-if-no-customize"
+          >
+            <a
+              class="ab-item"
+              role="menuitem"
+              href="http://localhost/projet-planty/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%2Fprojet-planty%2F"
+              >Personnaliser</a
+            >
+          </li>
+          <li role="group" id="wp-admin-bar-updates">
+            <a
+              class="ab-item"
+              role="menuitem"
+              href="http://localhost/projet-planty/wp-admin/update-core.php"
+              ><span class="ab-icon" aria-hidden="true"></span
+              ><span class="ab-label" aria-hidden="true">10</span
+              ><span class="screen-reader-text updates-available-text"
+                >10 mises à jour disponibles</span
+              ></a
+            >
+          </li>
+          <li role="group" id="wp-admin-bar-comments">
+            <a
+              class="ab-item"
+              role="menuitem"
+              href="http://localhost/projet-planty/wp-admin/edit-comments.php"
+              ><span class="ab-icon" aria-hidden="true"></span
+              ><span
+                class="ab-label awaiting-mod pending-count count-0"
+                aria-hidden="true"
+                >0</span
+              ><span class="screen-reader-text comments-in-moderation-text"
+                >0 commentaire en modération</span
+              ></a
+            >
+          </li>
+          <li role="group" id="wp-admin-bar-new-content" class="menupop">
+            <a
+              class="ab-item"
+              role="menuitem"
+              aria-expanded="false"
+              href="http://localhost/projet-planty/wp-admin/post-new.php"
+              ><span class="ab-icon" aria-hidden="true"></span
+              ><span class="ab-label">Créer</span></a
+            >
+            <div class="ab-sub-wrapper">
+              <ul
+                role="menu"
+                aria-label="Créer"
+                id="wp-admin-bar-new-content-default"
+                class="ab-submenu"
+              >
+                <li role="group" id="wp-admin-bar-new-post">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/post-new.php"
+                    >Article</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-new-media">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/media-new.php"
+                    >Fichier média</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-new-page">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/post-new.php?post_type=page"
+                    >Page</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-new-e-floating-buttons">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/edit.php?action=elementor_new_post&#038;post_type=e-floating-buttons&#038;template_type=floating-buttons&#038;_wpnonce=2dc96b340d#library"
+                    >Élément flottant</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-new-elementor_library">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/post-new.php?post_type=elementor_library"
+                    >Modèle</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-new-user">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/user-new.php"
+                    >Compte</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li role="group" id="wp-admin-bar-edit">
+            <a
+              class="ab-item"
+              role="menuitem"
+              href="http://localhost/projet-planty/wp-admin/post.php?post=599&#038;action=edit"
+              >Modifier la page</a
+            >
+          </li>
+          <li role="group" id="wp-admin-bar-ocean-menu" class="menupop">
+            <a
+              class="ab-item"
+              role="menuitem"
+              aria-expanded="false"
+              href="http://localhost/projet-planty/wp-admin/admin.php?page=oceanwp"
+              >OceanWP</a
+            >
+            <div class="ab-sub-wrapper">
+              <ul
+                role="menu"
+                id="wp-admin-bar-ocean-menu-default"
+                class="ab-submenu"
+              >
+                <li role="group" id="wp-admin-bar-ocean-customizer">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/admin.php?page=oceanwp#customizer"
+                    >Panel</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-ocean-system-info">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/admin.php?page=oceanwp#system-info"
+                    >Information système</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-ocean-community">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="https://www.facebook.com/groups/oceanwptheme/"
+                    target="_blank"
+                    >Community</a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-ocean-documentation">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="https://docs.oceanwp.org/"
+                    target="_blank"
+                    >Documentation</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <ul
+          role="menu"
+          id="wp-admin-bar-top-secondary"
+          class="ab-top-secondary ab-top-menu"
+        >
+          <li
+            role="group"
+            id="wp-admin-bar-my-account"
+            class="menupop with-avatar"
+          >
+            <a
+              class="ab-item"
+              role="menuitem"
+              aria-expanded="false"
+              href="http://localhost/projet-planty/wp-admin/profile.php"
+              >Bonjour, <span class="display-name">norchane.almi</span
+              ><img
+                alt=""
+                src="http://1.gravatar.com/avatar/d397396d9abac15b0a54396067e4c9ef?s=26&#038;d=mm&#038;r=g"
+                srcset="
+                  http://1.gravatar.com/avatar/d397396d9abac15b0a54396067e4c9ef?s=52&#038;d=mm&#038;r=g 2x
+                "
+                class="avatar avatar-26 photo"
+                height="26"
+                width="26"
+                decoding="async"
+            /></a>
+            <div class="ab-sub-wrapper">
+              <ul
+                role="menu"
+                aria-label="Bonjour, norchane.almi"
+                id="wp-admin-bar-user-actions"
+                class="ab-submenu"
+              >
+                <li role="group" id="wp-admin-bar-user-info">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-admin/profile.php"
+                    ><img
+                      alt=""
+                      src="http://1.gravatar.com/avatar/d397396d9abac15b0a54396067e4c9ef?s=64&#038;d=mm&#038;r=g"
+                      srcset="
+                        http://1.gravatar.com/avatar/d397396d9abac15b0a54396067e4c9ef?s=128&#038;d=mm&#038;r=g 2x
+                      "
+                      class="avatar avatar-64 photo"
+                      height="64"
+                      width="64"
+                      decoding="async"
+                    /><span class="display-name">norchane.almi</span
+                    ><span class="display-name edit-profile"
+                      >Modifier le profil</span
+                    ></a
+                  >
+                </li>
+                <li role="group" id="wp-admin-bar-logout">
+                  <a
+                    class="ab-item"
+                    role="menuitem"
+                    href="http://localhost/projet-planty/wp-login.php?action=logout&#038;_wpnonce=108e6f8b94"
+                    >Se déconnecter</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li role="group" id="wp-admin-bar-search" class="admin-bar-search">
+            <div class="ab-item ab-empty-item" tabindex="-1" role="menuitem">
+              <form
+                action="http://localhost/projet-planty/"
+                method="get"
+                id="adminbarsearch"
+              >
+                <input
+                  class="adminbar-input"
+                  name="s"
+                  id="adminbar-search"
+                  type="text"
+                  value=""
+                  maxlength="150"
+                /><label for="adminbar-search" class="screen-reader-text"
+                  >Rechercher</label
+                ><input
+                  type="submit"
+                  class="adminbar-button"
+                  value="Rechercher"
+                />
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="outer-wrap" class="site clr">
+      <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+      <div id="wrap" class="clr">
+        <header
+          id="masthead"
+          itemscope="itemscope"
+          itemtype="https://schema.org/WPHeader"
+        >
+          <p class="main-title bhf-hidden" itemprop="headline">
+            <a href="http://localhost/projet-planty" title="Planty" rel="home"
+              >Planty</a
+            >
+          </p>
+          <div
+            data-elementor-type="wp-post"
+            data-elementor-id="17"
+            class="elementor elementor-17"
+          >
+            <div
+              class="elementor-element elementor-element-2876404 e-flex e-con-boxed e-con e-parent"
+              data-id="2876404"
+              data-element_type="container"
+            >
+              <div class="e-con-inner">
+                <div
+                  class="elementor-element elementor-element-c04bb79 e-con-full e-flex e-con e-child"
+                  data-id="c04bb79"
+                  data-element_type="container"
+                >
+                  <div
+                    class="elementor-element elementor-element-ab64510 e-transform elementor-widget elementor-widget-image"
+                    data-id="ab64510"
+                    data-element_type="widget"
+                    data-settings='{"_transform_translateY_effect":{"unit":"px","size":1,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                    data-widget_type="image.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <a href="http://localhost/projet-planty/">
+                        <img
+                          fetchpriority="high"
+                          width="1024"
+                          height="94"
+                          src="http://localhost/projet-planty/wp-content/uploads/2024/11/Logo.png"
+                          class="attachment-large size-large wp-image-20"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-d4e6968 e-con-full e-flex e-con e-child"
+                  data-id="d4e6968"
+                  data-element_type="container"
+                >
+                  <div
+                    class="elementor-element elementor-element-1c455d8 e-transform e-transform elementor-widget elementor-widget-button"
+                    data-id="1c455d8"
+                    data-element_type="widget"
+                    data-settings='{"_transform_scaleX_effect":{"unit":"px","size":1.7,"sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":2.2,"sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":472,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":98,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":-25,"sizes":[]},"_transform_translateY_effect":{"unit":"px","size":4,"sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":-7,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":58,"sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":1.1,"sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":1.5,"sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                    data-widget_type="button.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="elementor-button-wrapper">
+                        <a
+                          class="elementor-button elementor-button-link elementor-size-sm"
+                          href="http://localhost/projet-planty/membership/"
+                          target="_blank"
+                        >
+                          <span class="elementor-button-content-wrapper">
+                            <span class="elementor-button-text">Commander</span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-2316d45 e-transform e-transform hfe-nav-menu__align-left hfe-submenu-icon-arrow hfe-submenu-animation-none hfe-link-redirect-child hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
+                    data-id="2316d45"
+                    data-element_type="widget"
+                    data-settings='{"_transform_translateX_effect":{"unit":"px","size":500,"sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":218,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":126,"sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":-55,"sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":1.6,"sizes":[]},"padding_horizontal_menu_item":{"unit":"px","size":15,"sizes":[]},"padding_horizontal_menu_item_tablet":{"unit":"px","size":"","sizes":[]},"padding_horizontal_menu_item_mobile":{"unit":"px","size":"","sizes":[]},"padding_vertical_menu_item":{"unit":"px","size":15,"sizes":[]},"padding_vertical_menu_item_tablet":{"unit":"px","size":"","sizes":[]},"padding_vertical_menu_item_mobile":{"unit":"px","size":"","sizes":[]},"menu_space_between":{"unit":"px","size":"","sizes":[]},"menu_space_between_tablet":{"unit":"px","size":"","sizes":[]},"menu_space_between_mobile":{"unit":"px","size":"","sizes":[]},"menu_row_space":{"unit":"px","size":"","sizes":[]},"menu_row_space_tablet":{"unit":"px","size":"","sizes":[]},"menu_row_space_mobile":{"unit":"px","size":"","sizes":[]},"dropdown_border_radius":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"dropdown_border_radius_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"dropdown_border_radius_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"width_dropdown_item":{"unit":"px","size":"220","sizes":[]},"width_dropdown_item_tablet":{"unit":"px","size":"","sizes":[]},"width_dropdown_item_mobile":{"unit":"px","size":"","sizes":[]},"padding_horizontal_dropdown_item":{"unit":"px","size":"","sizes":[]},"padding_horizontal_dropdown_item_tablet":{"unit":"px","size":"","sizes":[]},"padding_horizontal_dropdown_item_mobile":{"unit":"px","size":"","sizes":[]},"padding_vertical_dropdown_item":{"unit":"px","size":15,"sizes":[]},"padding_vertical_dropdown_item_tablet":{"unit":"px","size":"","sizes":[]},"padding_vertical_dropdown_item_mobile":{"unit":"px","size":"","sizes":[]},"distance_from_menu":{"unit":"px","size":"","sizes":[]},"distance_from_menu_tablet":{"unit":"px","size":"","sizes":[]},"distance_from_menu_mobile":{"unit":"px","size":"","sizes":[]},"toggle_size":{"unit":"px","size":"","sizes":[]},"toggle_size_tablet":{"unit":"px","size":"","sizes":[]},"toggle_size_mobile":{"unit":"px","size":"","sizes":[]},"toggle_border_width":{"unit":"px","size":"","sizes":[]},"toggle_border_width_tablet":{"unit":"px","size":"","sizes":[]},"toggle_border_width_mobile":{"unit":"px","size":"","sizes":[]},"toggle_border_radius":{"unit":"px","size":"","sizes":[]},"toggle_border_radius_tablet":{"unit":"px","size":"","sizes":[]},"toggle_border_radius_mobile":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                    data-widget_type="navigation-menu.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div
+                        class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
+                        data-layout="horizontal"
+                      >
+                        <div
+                          role="button"
+                          class="hfe-nav-menu__toggle elementor-clickable"
+                        >
+                          <span class="screen-reader-text">Menu</span>
+                          <div class="hfe-nav-menu-icon">
+                            <svg
+                              aria-hidden="true"
+                              class="e-font-icon-svg e-fas-align-justify"
+                              viewBox="0 0 448 512"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M432 416H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <nav
+                          class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
+                          data-toggle-icon='&lt;svg aria-hidden="true" tabindex="0" class="e-font-icon-svg e-fas-align-justify" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M432 416H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z"&gt;&lt;/path&gt;&lt;/svg&gt;'
+                          data-close-icon='&lt;svg aria-hidden="true" tabindex="0" class="e-font-icon-svg e-far-window-close" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm0 394c0 3.3-2.7 6-6 6H54c-3.3 0-6-2.7-6-6V86c0-3.3 2.7-6 6-6h404c3.3 0 6 2.7 6 6v340zM356.5 194.6L295.1 256l61.4 61.4c4.6 4.6 4.6 12.1 0 16.8l-22.3 22.3c-4.6 4.6-12.1 4.6-16.8 0L256 295.1l-61.4 61.4c-4.6 4.6-12.1 4.6-16.8 0l-22.3-22.3c-4.6-4.6-4.6-12.1 0-16.8l61.4-61.4-61.4-61.4c-4.6-4.6-4.6-12.1 0-16.8l22.3-22.3c4.6-4.6 12.1-4.6 16.8 0l61.4 61.4 61.4-61.4c4.6-4.6 12.1-4.6 16.8 0l22.3 22.3c4.7 4.6 4.7 12.1 0 16.8z"&gt;&lt;/path&gt;&lt;/svg&gt;'
+                          data-full-width="yes"
+                        >
+                          <ul id="menu-1-2316d45" class="hfe-nav-menu">
+                            <li
+                              id="menu-item-4520"
+                              class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"
+                            >
+                              <a
+                                href="http://localhost/projet-planty/about-us/"
+                                class="hfe-menu-item"
+                                >Nous rencontrer</a
+                              >
+                            </li>
+                            <li class="menu-item">
+                              <a href="http://localhost/projet-planty/wp-admin/"
+                                >Admin</a
+                              >
+                            </li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <main id="main" class="site-main clr" role="main">
+          <div id="content-wrap" class="container clr">
+            <div id="primary" class="content-area clr">
+              <div id="content" class="site-content clr">
+                <article class="single-page-article clr">
+                  <div class="entry clr" itemprop="text">
+                    <div
+                      data-elementor-type="wp-post"
+                      data-elementor-id="599"
+                      class="elementor elementor-599"
+                    >
+                      <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-agosbi9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="agosbi9"
+                        data-element_type="section"
+                        data-settings='{"background_background":"classic","shape_divider_bottom":"curve","shape_divider_bottom_negative":"yes"}'
+                      >
+                        <div
+                          class="elementor-shape elementor-shape-bottom"
+                          data-negative="true"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 1000 100"
+                            preserveAspectRatio="none"
+                          >
+                            <path
+                              class="elementor-shape-fill"
+                              d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="elementor-container elementor-column-gap-default"
+                        >
+                          <div
+                            class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-tfzdq28"
+                            data-id="tfzdq28"
+                            data-element_type="column"
+                          >
+                            <div
+                              class="elementor-widget-wrap elementor-element-populated"
+                            >
+                              <div
+                                class="elementor-element elementor-element-9ynwqsk e-transform e-transform elementor-widget elementor-widget-heading"
+                                data-id="9ynwqsk"
+                                data-element_type="widget"
+                                data-settings='{"_transform_scaleX_effect":{"unit":"px","size":2,"sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":2,"sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":-27,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":2,"sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":1.5,"sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":1,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                                data-widget_type="heading.default"
+                              >
+                                <div class="elementor-widget-container">
+                                  <h2
+                                    class="elementor-heading-title elementor-size-default"
+                                  >
+                                    BOISSON ENERGISANTE
+                                  </h2>
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-element elementor-element-dd46bd0 e-transform e-transform elementor-widget elementor-widget-heading"
+                                data-id="dd46bd0"
+                                data-element_type="widget"
+                                data-settings='{"_transform_scaleX_effect":{"unit":"px","size":2,"sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":2,"sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":-16,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":-38,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":62,"sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":1.5,"sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":1,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                                data-widget_type="heading.default"
+                              >
+                                <div class="elementor-widget-container">
+                                  <h2
+                                    class="elementor-heading-title elementor-size-default"
+                                  >
+                                    100% NATURELLE
+                                  </h2>
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-element elementor-element-5da870b e-transform e-transform e-transform elementor-widget elementor-widget-image"
+                                data-id="5da870b"
+                                data-element_type="widget"
+                                data-settings='{"_transform_rotateZ_effect":{"unit":"px","size":-2,"sizes":[]},"_transform_scaleX_effect":{"unit":"px","size":1,"sizes":[]},"_transform_rotateZ_effect_tablet":{"unit":"deg","size":0,"sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":-9,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":-4,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":-9,"sizes":[]},"_transform_rotateZ_effect_mobile":{"unit":"deg","size":"","sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                                data-widget_type="image.default"
+                              >
+                                <div class="elementor-widget-container">
+                                  <img
+                                    decoding="async"
+                                    width="350"
+                                    height="401"
+                                    src="http://localhost/projet-planty/wp-content/uploads/2024/11/Group-4-1.png"
+                                    class="attachment-large size-large wp-image-1305"
+                                    alt=""
+                                  />
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-element elementor-element-7ce835e e-transform e-transform e-transform elementor-widget elementor-widget-image"
+                                data-id="7ce835e"
+                                data-element_type="widget"
+                                data-settings='{"_transform_rotateZ_effect":{"unit":"px","size":2,"sizes":[]},"_transform_scaleX_effect":{"unit":"px","size":1.3,"sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":1.6,"sizes":[]},"_transform_rotateZ_effect_tablet":{"unit":"deg","size":2,"sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":-30,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":-42,"sizes":[]},"_transform_rotateZ_effect_mobile":{"unit":"deg","size":"","sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                                data-widget_type="image.default"
+                              >
+                                <div class="elementor-widget-container">
+                                  <img
+                                    decoding="async"
+                                    width="350"
+                                    height="401"
+                                    src="http://localhost/projet-planty/wp-content/uploads/2024/11/Group-3.png"
+                                    class="attachment-large size-large wp-image-1306"
+                                    alt=""
+                                  />
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-element elementor-element-b04915c e-transform e-transform elementor-widget elementor-widget-image"
+                                data-id="b04915c"
+                                data-element_type="widget"
+                                data-settings='{"_transform_scaleX_effect":{"unit":"px","size":1.1,"sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":1,"sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":-24,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":-32,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":15,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                                data-widget_type="image.default"
+                              >
+                                <div class="elementor-widget-container">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="387"
+                                    height="618"
+                                    src="http://localhost/projet-planty/wp-content/uploads/2024/11/Planty6-1-1.png"
+                                    class="attachment-large size-large wp-image-1532"
+                                    alt=""
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <div
+                        class="elementor-element elementor-element-9382697 e-transform e-flex e-con-boxed e-con e-parent"
+                        data-id="9382697"
+                        data-element_type="container"
+                        data-settings='{"shape_divider_top":"drops","_transform_translateY_effect":{"unit":"px","size":0,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                      >
+                        <div class="e-con-inner">
+                          <div
+                            class="elementor-shape elementor-shape-top"
+                            data-negative="false"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="100%"
+                              viewBox="0 0 283.5 27.8"
+                              preserveAspectRatio="xMidYMax slice"
+                            >
+                              <path
+                                class="elementor-shape-fill"
+                                d="M0 0v1.4c.6.7 1.1 1.4 1.4 2 2 3.8 2.2 6.6 1.8 10.8-.3 3.3-2.4 9.4 0 12.3 1.7 2 3.7 1.4 4.6-.9 1.4-3.8-.7-8.2-.6-12 .1-3.7 3.2-5.5 6.9-4.9 4 .6 4.8 4 4.9 7.4.1 1.8-1.1 7 0 8.5.6.8 1.6 1.2 2.4.5 1.4-1.1.1-5.4.1-6.9.1-3.7.3-8.6 4.1-10.5 5-2.5 6.2 1.6 5.4 5.6-.4 1.7-1 9.2 2.9 6.3 1.5-1.1.7-3.5.5-4.9-.4-2.4-.4-4.3 1-6.5.9-1.4 2.4-3.1 4.2-3 2.4.1 2.7 2.2 4 3.7 1.5 1.8 1.8 2.2 3 .1 1.1-1.9 1.2-2.8 3.6-3.3 1.3-.3 4.8-1.4 5.9-.5 1.5 1.1.6 2.8.4 4.3-.2 1.1-.6 4 1.8 3.4 1.7-.4-.3-4.1.6-5.6 1.3-2.2 5.8-1.4 7 .5 1.3 2.1.5 5.8.1 8.1s-1.2 5-.6 7.4c1.3 5.1 4.4.9 4.3-2.4-.1-4.4-2-8.8-.5-13 .9-2.4 4.6-6.6 7.7-4.5 2.7 1.8.5 7.8.2 10.3-.2 1.7-.8 4.6.2 6.2.9 1.4 2 1.5 2.6-.3.5-1.5-.9-4.5-1-6.1-.2-1.7-.4-3.7.2-5.4 1.8-5.6 3.5 2.4 6.3.6 1.4-.9 4.3-9.4 6.1-3.1.6 2.2-1.3 7.8.7 8.9 4.2 2.3 1.5-7.1 2.2-8 3.1-4 4.7 3.8 6.1 4.1 3.1.7 2.8-7.9 8.1-4.5 1.7 1.1 2.9 3.3 3.2 5.2.4 2.2-1 4.5-.6 6.6 1 4.3 4.4 1.5 4.4-1.7 0-2.7-3-8.3 1.4-9.1 4.4-.9 7.3 3.5 7.8 6.9.3 2-1.5 10.9 1.3 11.3 4.1.6-3.2-15.7 4.8-15.8 4.7-.1 2.8 4.1 3.9 6.6 1 2.4 2.1 1 2.3-.8.3-1.9-.9-3.2 1.3-4.3 5.9-2.9 5.9 5.4 5.5 8.5-.3 2-1.7 8.4 2 8.1 6.9-.5-2.8-16.9 4.8-18.7 4.7-1.2 6.1 3.6 6.3 7.1.1 1.7-1.2 8.1.6 9.1 3.5 2 1.9-7 2-8.4.2-4 1.2-9.6 6.4-9.8 4.7-.2 3.2 4.6 2.7 7.5-.4 2.2 1.3 8.6 3.8 4.4 1.1-1.9-.3-4.1-.3-6 0-1.7.4-3.2 1.3-4.6 1-1.6 2.9-3.5 5.1-2.9 2.5.6 2.3 4.1 4.1 4.9 1.9.8 1.6-.9 2.3-2.1 1.2-2.1 2.1-2.1 4.4-2.4 1.4-.2 3.6-1.5 4.9-.5 2.3 1.7-.7 4.4.1 6.5.6 1.5 2.1 1.7 2.8.3.7-1.4-1.1-3.4-.3-4.8 1.4-2.5 6.2-1.2 7.2 1 2.3 4.8-3.3 12-.2 16.3 3 4.1 3.9-2.8 3.8-4.8-.4-4.3-2.1-8.9 0-13.1 1.3-2.5 5.9-5.7 7.9-2.4 2 3.2-1.3 9.8-.8 13.4.5 4.4 3.5 3.3 2.7-.8-.4-1.9-2.4-10 .6-11.1 3.7-1.4 2.8 7.2 6.5.4 2.2-4.1 4.9-3.1 5.2 1.2.1 1.5-.6 3.1-.4 4.6.2 1.9 1.8 3.7 3.3 1.3 1-1.6-2.6-10.4 2.9-7.3 2.6 1.5 1.6 6.5 4.8 2.7 1.3-1.5 1.7-3.6 4-3.7 2.2-.1 4 2.3 4.8 4.1 1.3 2.9-1.5 8.4.9 10.3 4.2 3.3 3-5.5 2.7-6.9-.6-3.9 1-7.2 5.5-5 4.1 2.1 4.3 7.7 4.1 11.6 0 .8-.6 9.5 2.5 5.2 1.2-1.7-.1-7.7.1-9.6.3-2.9 1.2-5.5 4.3-6.2 4.5-1 7.7 1.5 7.4 5.8-.2 3.5-1.8 7.7-.5 11.1 1 2.7 3.6 2.8 5 .2 1.6-3.1 0-8.3-.4-11.6-.4-4.2-.2-7 1.8-10.8 0 0-.1.1-.1.2-.2.4-.3.7-.4.8v.1c-.1.2-.1.2 0 0v-.1l.4-.8c0-.1.1-.1.1-.2.2-.4.5-.8.8-1.2V0H0zM282.7 3.4z"
+                              />
+                            </svg>
+                          </div>
+                          <div
+                            class="elementor-element elementor-element-60eb4da e-con-full e-flex e-con e-child"
+                            data-id="60eb4da"
+                            data-element_type="container"
+                          >
+                            <div
+                              class="elementor-element elementor-element-cb43dbb elementor-widget elementor-widget-heading"
+                              data-id="cb43dbb"
+                              data-element_type="widget"
+                              data-widget_type="heading.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <h2
+                                  class="elementor-heading-title elementor-size-default"
+                                >
+                                  L'énergie des plantes
+                                </h2>
+                              </div>
+                            </div>
+                            <div
+                              class="elementor-element elementor-element-04a2477 elementor-widget elementor-widget-text-editor"
+                              data-id="04a2477"
+                              data-element_type="widget"
+                              data-widget_type="text-editor.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <p>Planty, c&rsquo;est la première boisson</p>
+                                <p>
+                                  énergisante composée à 100% de produits
+                                  naturels.
+                                </p>
+                                <p>
+                                  Avec son goût frais et fruité, retrouvez votre
+                                </p>
+                                <p>
+                                  énergie grâce aux plantes enrichies en
+                                  vitamines B2,
+                                </p>
+                                <p>
+                                  à n&rsquo;importe quel moment de la journée.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-iq71ssn elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="iq71ssn"
+                        data-element_type="section"
+                        data-settings='{"background_background":"classic"}'
+                      >
+                        <div
+                          class="elementor-container elementor-column-gap-default"
+                        >
+                          <div
+                            class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-oredo4r"
+                            data-id="oredo4r"
+                            data-element_type="column"
+                          >
+                            <div
+                              class="elementor-widget-wrap elementor-element-populated"
+                            >
+                              <div
+                                class="elementor-element elementor-element-528a43b elementor-widget elementor-widget-heading"
+                                data-id="528a43b"
+                                data-element_type="widget"
+                                data-widget_type="heading.default"
+                              >
+                                <div class="elementor-widget-container">
+                                  <h2
+                                    class="elementor-heading-title elementor-size-default"
+                                  >
+                                    LES GOÛTS
+                                  </h2>
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-element elementor-element-c860b50 elementor-widget elementor-widget-text-editor"
+                                data-id="c860b50"
+                                data-element_type="widget"
+                                data-widget_type="text-editor.default"
+                              >
+                                <div class="elementor-widget-container">
+                                  <p>
+                                    Nous avons une saveur pour chaque moment de
+                                    votre journée.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <div
+                        class="elementor-element elementor-element-70d9be0 e-flex e-con-boxed e-con e-parent"
+                        data-id="70d9be0"
+                        data-element_type="container"
+                        data-settings='{"background_background":"classic"}'
+                      >
+                        <div class="e-con-inner">
+                          <div
+                            class="elementor-element elementor-element-0808b56 e-con-full e-flex e-con e-child"
+                            data-id="0808b56"
+                            data-element_type="container"
+                          >
+                            <div
+                              class="elementor-element elementor-element-2d96e6a e-transform e-transform e-transform elementor-widget elementor-widget-image"
+                              data-id="2d96e6a"
+                              data-element_type="widget"
+                              data-settings='{"_transform_translateX_effect_tablet":{"unit":"px","size":-50,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":-75,"sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":-59,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":-65,"sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":0.8,"sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":0.8,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_skewX_effect":{"unit":"px","size":"","sizes":[]},"_transform_skewX_effect_tablet":{"unit":"deg","size":"","sizes":[]},"_transform_skewX_effect_mobile":{"unit":"deg","size":"","sizes":[]},"_transform_skewY_effect":{"unit":"px","size":"","sizes":[]},"_transform_skewY_effect_tablet":{"unit":"deg","size":"","sizes":[]},"_transform_skewY_effect_mobile":{"unit":"deg","size":"","sizes":[]}}'
+                              data-widget_type="image.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <img
+                                  loading="lazy"
+                                  decoding="async"
+                                  width="393"
+                                  height="262"
+                                  src="http://localhost/projet-planty/wp-content/uploads/2024/11/Group-12.png"
+                                  class="attachment-large size-large wp-image-1759"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="elementor-element elementor-element-81827bf e-con-full e-flex e-con e-child"
+                            data-id="81827bf"
+                            data-element_type="container"
+                          >
+                            <div
+                              class="elementor-element elementor-element-428eec5 e-transform e-transform elementor-widget elementor-widget-image"
+                              data-id="428eec5"
+                              data-element_type="widget"
+                              data-settings='{"_transform_translateX_effect_tablet":{"unit":"px","size":68,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":72,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":-36,"sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":1.6,"sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":1.8,"sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":1.5,"sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":1.8,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":"","sizes":[]}}'
+                              data-widget_type="image.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <img
+                                  loading="lazy"
+                                  decoding="async"
+                                  width="394"
+                                  height="263"
+                                  src="http://localhost/projet-planty/wp-content/uploads/2024/11/Group-13.png"
+                                  class="attachment-large size-large wp-image-1760"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-element elementor-element-7fc665c e-flex e-con-boxed e-con e-parent"
+                        data-id="7fc665c"
+                        data-element_type="container"
+                        data-settings='{"background_background":"classic"}'
+                      >
+                        <div class="e-con-inner">
+                          <div
+                            class="elementor-element elementor-element-5888685 e-con-full e-flex e-con e-child"
+                            data-id="5888685"
+                            data-element_type="container"
+                          >
+                            <div
+                              class="elementor-element elementor-element-9ab5637 e-transform e-transform elementor-widget elementor-widget-image"
+                              data-id="9ab5637"
+                              data-element_type="widget"
+                              data-settings='{"_transform_translateX_effect_tablet":{"unit":"px","size":-55,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":-76,"sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":-103,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":-6,"sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":0.8,"sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":0.9,"sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":0.8,"sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":0.9,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":"","sizes":[]}}'
+                              data-widget_type="image.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <img
+                                  loading="lazy"
+                                  decoding="async"
+                                  width="393"
+                                  height="262"
+                                  src="http://localhost/projet-planty/wp-content/uploads/2024/11/Group-15.png"
+                                  class="attachment-large size-large wp-image-1761"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="elementor-element elementor-element-5f2210f e-con-full e-flex e-con e-child"
+                            data-id="5f2210f"
+                            data-element_type="container"
+                          >
+                            <div
+                              class="elementor-element elementor-element-e237e2c e-transform e-transform elementor-widget elementor-widget-image"
+                              data-id="e237e2c"
+                              data-element_type="widget"
+                              data-settings='{"_transform_translateX_effect_tablet":{"unit":"px","size":72,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":74,"sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":-41,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":52,"sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":1.6,"sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":2,"sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":1.6,"sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":2,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":"","sizes":[]}}'
+                              data-widget_type="image.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <img
+                                  loading="lazy"
+                                  decoding="async"
+                                  width="393"
+                                  height="262"
+                                  src="http://localhost/projet-planty/wp-content/uploads/2024/11/Group-14.png"
+                                  class="attachment-large size-large wp-image-1762"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-element elementor-element-dc7fbea e-transform e-flex e-con-boxed e-con e-parent"
+                        data-id="dc7fbea"
+                        data-element_type="container"
+                        data-settings='{"background_background":"classic","shape_divider_bottom":"curve","shape_divider_bottom_negative":"yes","_transform_translateY_effect_mobile":{"unit":"px","size":0,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]}}'
+                      >
+                        <div class="e-con-inner">
+                          <div
+                            class="elementor-shape elementor-shape-bottom"
+                            data-negative="true"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 1000 100"
+                              preserveAspectRatio="none"
+                            >
+                              <path
+                                class="elementor-shape-fill"
+                                d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"
+                              />
+                            </svg>
+                          </div>
+                          <div
+                            class="elementor-element elementor-element-d7f20bb e-transform e-transform elementor-widget elementor-widget-button"
+                            data-id="d7f20bb"
+                            data-element_type="widget"
+                            data-settings='{"_transform_scaleX_effect":{"unit":"px","size":1.4,"sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":1.4,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":-421,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":-15,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":-10,"sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":-198,"sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":-32,"sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                            data-widget_type="button.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="elementor-button-wrapper">
+                                <a
+                                  class="elementor-button elementor-button-link elementor-size-sm"
+                                  href="http://localhost/projet-planty/membership/"
+                                >
+                                  <span
+                                    class="elementor-button-content-wrapper"
+                                  >
+                                    <span class="elementor-button-text"
+                                      >Commander</span
+                                    >
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-element elementor-element-3a7d1c2 e-flex e-con-boxed e-con e-parent"
+                        data-id="3a7d1c2"
+                        data-element_type="container"
+                      >
+                        <div class="e-con-inner">
+                          <div
+                            class="elementor-element elementor-element-268150e e-transform e-transform elementor-widget elementor-widget-heading"
+                            data-id="268150e"
+                            data-element_type="widget"
+                            data-settings='{"_transform_translateX_effect_tablet":{"unit":"px","size":-120,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":-128,"sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":-15,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":125,"sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":5,"sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":4,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":"","sizes":[]}}'
+                            data-widget_type="heading.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <h2
+                                class="elementor-heading-title elementor-size-default"
+                              >
+                                CE QU'ILS EN PENSENT
+                              </h2>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-wlsfmnq elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="wlsfmnq"
+                        data-element_type="section"
+                      >
+                        <div
+                          class="elementor-container elementor-column-gap-default"
+                        >
+                          <div
+                            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-njswfvb"
+                            data-id="njswfvb"
+                            data-element_type="column"
+                          >
+                            <div
+                              class="elementor-widget-wrap elementor-element-populated"
+                            >
+                              <div
+                                class="elementor-element elementor-element-nrhkbhl e-transform e-transform elementor-widget elementor-widget-image"
+                                data-id="nrhkbhl"
+                                data-element_type="widget"
+                                data-settings='{"_transform_translateX_effect_tablet":{"unit":"px","size":64,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":65,"sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":-17,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":15,"sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":0.7,"sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":0.7,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                                data-widget_type="image.default"
+                              >
+                                <div class="elementor-widget-container">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="345"
+                                    height="139"
+                                    src="http://localhost/projet-planty/wp-content/uploads/2024/11/Group-11.png"
+                                    class="attachment-full size-full wp-image-1993"
+                                    alt=""
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ewlmzmq"
+                            data-id="ewlmzmq"
+                            data-element_type="column"
+                          >
+                            <div
+                              class="elementor-widget-wrap elementor-element-populated"
+                            >
+                              <div
+                                class="elementor-element elementor-element-jeifjch e-transform elementor-widget elementor-widget-image"
+                                data-id="jeifjch"
+                                data-element_type="widget"
+                                data-settings='{"_transform_translateX_effect_tablet":{"unit":"px","size":26,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":40,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":15,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]}}'
+                                data-widget_type="image.default"
+                              >
+                                <div class="elementor-widget-container">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="343"
+                                    height="139"
+                                    src="http://localhost/projet-planty/wp-content/uploads/2024/11/Group-10.png"
+                                    class="attachment-full size-full wp-image-1994"
+                                    alt=""
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-lxiwmgv"
+                            data-id="lxiwmgv"
+                            data-element_type="column"
+                          >
+                            <div
+                              class="elementor-widget-wrap elementor-element-populated"
+                            >
+                              <div
+                                class="elementor-element elementor-element-uvfgtlz e-transform e-transform elementor-widget elementor-widget-image"
+                                data-id="uvfgtlz"
+                                data-element_type="widget"
+                                data-settings='{"_transform_translateX_effect_tablet":{"unit":"px","size":-18,"sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":-17,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":9,"sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":0.7,"sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":0.7,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                                data-widget_type="image.default"
+                              >
+                                <div class="elementor-widget-container">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="343"
+                                    height="139"
+                                    src="http://localhost/projet-planty/wp-content/uploads/2024/11/Group-9.png"
+                                    class="attachment-full size-full wp-image-1995"
+                                    alt=""
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <div
+                        class="elementor-element elementor-element-96760b0 e-transform e-transform e-flex e-con-boxed e-con e-parent"
+                        data-id="96760b0"
+                        data-element_type="container"
+                        data-settings='{"_transform_translateX_effect":{"unit":"px","size":0,"sizes":[]},"_transform_scaleX_effect":{"unit":"px","size":1.5,"sizes":[]},"_transform_scaleY_effect":{"unit":"px","size":1.5,"sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scaleY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                      >
+                        <div class="e-con-inner">
+                          <div
+                            class="elementor-element elementor-element-92245c2 e-transform elementor-widget elementor-widget-image"
+                            data-id="92245c2"
+                            data-element_type="widget"
+                            data-settings='{"_transform_translateX_effect_tablet":{"unit":"px","size":-113,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":-180,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+                            data-widget_type="image.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <img
+                                loading="lazy"
+                                decoding="async"
+                                width="1024"
+                                height="115"
+                                src="http://localhost/projet-planty/wp-content/uploads/2024/11/Mask-group.png"
+                                class="attachment-large size-large wp-image-2071"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <!-- #content -->
+            </div>
+            <!-- #primary -->
+          </div>
+          <!-- #content-wrap -->
+        </main>
+        <!-- #main -->
+
+        <footer
+          itemtype="https://schema.org/WPFooter"
+          itemscope="itemscope"
+          id="colophon"
+          role="contentinfo"
+        >
+          <div class="footer-width-fixer">
+            <div
+              data-elementor-type="wp-post"
+              data-elementor-id="2348"
+              class="elementor elementor-2348"
+            >
+              <div
+                class="elementor-element elementor-element-28baea7 e-transform e-flex e-con-boxed e-con e-parent"
+                data-id="28baea7"
+                data-element_type="container"
+                data-settings='{"_transform_translateY_effect":{"unit":"px","size":20,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":"","sizes":[]}}'
+              >
+                <div class="e-con-inner">
+                  <div
+                    class="elementor-element elementor-element-90fcc96 e-transform elementor-widget elementor-widget-text-editor"
+                    data-id="90fcc96"
+                    data-element_type="widget"
+                    data-settings='{"_transform_translateX_effect_mobile":{"unit":"px","size":13,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":-5,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]}}'
+                    data-widget_type="text-editor.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <p>
+                        <a
+                          href="http://localhost/projet-planty/"
+                          data-wplink-url-error="true"
+                          >Mentions légales</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!-- #wrap -->
+    </div>
+    <!-- #outer-wrap -->
+
+    <a
+      aria-label="Scroll to the top of the page"
+      href="#"
+      id="scroll-top"
+      class="scroll-top-right"
+      ><i class="fa fa-angle-up" aria-hidden="true" role="img"></i
+    ></a>
+
+    <div id="searchform-overlay" class="header-searchform-wrap clr">
+      <div class="container clr">
+        <form
+          method="get"
+          action="http://localhost/projet-planty/"
+          class="header-searchform"
+        >
+          <a
+            href="http://localhost/projet-planty/#hsoverlay-close"
+            class="search-overlay-close"
+            aria-label="Fermer ce formulaire de recherche"
+            ><span></span
+          ></a>
+          <span class="screen-reader-text">Rechercher sur ce site</span>
+          <input
+            aria-label="Insérer une requête de recherche"
+            class="searchform-overlay-input"
+            type="search"
+            name="s"
+            autocomplete="off"
+            value=""
+          />
+          <span class="search-text"
+            >Type then hit enter to search<span aria-hidden="true"
+              ><i></i><i></i><i></i></span
+          ></span>
+        </form>
+      </div>
+    </div>
+    <!-- #searchform-overlay -->
+
+    <script type="text/javascript">
+      const lazyloadRunObserver = () => {
+        const lazyloadBackgrounds = document.querySelectorAll(
+          `.e-con.e-parent:not(.e-lazyloaded)`
+        );
+        const lazyloadBackgroundObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                let lazyloadBackground = entry.target;
+                if (lazyloadBackground) {
+                  lazyloadBackground.classList.add("e-lazyloaded");
+                }
+                lazyloadBackgroundObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { rootMargin: "200px 0px 200px 0px" }
+        );
+        lazyloadBackgrounds.forEach((lazyloadBackground) => {
+          lazyloadBackgroundObserver.observe(lazyloadBackground);
+        });
+      };
+      const events = ["DOMContentLoaded", "elementor/lazyload/observe"];
+      events.forEach((event) => {
+        document.addEventListener(event, lazyloadRunObserver);
+      });
+    </script>
+    <script type="text/template" id="tmpl-elementor-templates-modal__header">
+      <div class="elementor-templates-modal__header__logo-area"></div>
+      <div class="elementor-templates-modal__header__menu-area"></div>
+      <div class="elementor-templates-modal__header__items-area">
+      	<# if ( closeType ) { #>
+      		<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close--{{{ closeType }}} elementor-templates-modal__header__item">
+      			<# if ( 'skip' === closeType ) { #>
+      			<span>Passer</span>
+      			<# } #>
+      			<i class="eicon-close"
+      			   aria-hidden="true"
+      			   title="{{{ $e.components?.get( 'document/elements' )?.utils?.getTitleForLibraryClose() }}}"></i>
+      			<span class="elementor-screen-only">{{{ $e.components?.get( 'document/elements' )?.utils?.getTitleForLibraryClose() }}}</span>
+      		</div>
+      	<# } #>
+      	<div id="elementor-template-library-header-tools"></div>
+      </div>
+    </script>
+
+    <script
+      type="text/template"
+      id="tmpl-elementor-templates-modal__header__logo"
+    >
+      <span class="elementor-templates-modal__header__logo__icon-wrapper e-logo-wrapper">
+      	<i class="eicon-elementor"></i>
+      </span>
+      <span class="elementor-templates-modal__header__logo__title">{{{ title }}}</span>
+    </script>
+    <script type="text/template" id="tmpl-elementor-finder">
+      <div id="elementor-finder__search">
+      	<i class="eicon-search" aria-hidden="true"></i>
+      	<input id="elementor-finder__search__input" placeholder="Saisissez pour trouver dans Elementor" autocomplete="off">
+      </div>
+      <div id="elementor-finder__content"></div>
+    </script>
+
+    <script type="text/template" id="tmpl-elementor-finder-results-container">
+      <div id="elementor-finder__no-results">Aucun résultat trouvé</div>
+      <div id="elementor-finder__results"></div>
+    </script>
+
+    <script type="text/template" id="tmpl-elementor-finder__results__category">
+      <div class="elementor-finder__results__category__title">{{{ title }}}</div>
+      <div class="elementor-finder__results__category__items"></div>
+    </script>
+
+    <script type="text/template" id="tmpl-elementor-finder__results__item">
+      <a href="{{ url }}" class="elementor-finder__results__item__link">
+      	<div class="elementor-finder__results__item__icon">
+      		<i class="eicon-{{{ icon }}}" aria-hidden="true"></i>
+      	</div>
+      	<div class="elementor-finder__results__item__title">{{{ title }}}</div>
+      	<# if ( description ) { #>
+      		<div class="elementor-finder__results__item__description">- {{{ description }}}</div>
+      	<# } #>
+
+      	<# if ( lock ) { #>
+      	<div class="elementor-finder__results__item__badge"><i class="{{{ lock.badge.icon }}}"></i>{{ lock.badge.text }}</div>
+      	<# } #>
+      </a>
+      <# if ( actions.length ) { #>
+      	<div class="elementor-finder__results__item__actions">
+      	<# jQuery.each( actions, function() { #>
+      		<a class="elementor-finder__results__item__action elementor-finder__results__item__action--{{ this.name }}" href="{{ this.url }}" target="_blank">
+      			<i class="eicon-{{{ this.icon }}}"></i>
+      		</a>
+      	<# } ); #>
+      	</div>
+      <# } #>
+    </script>
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18"
+      id="wp-hooks-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+      id="wp-i18n-js"
+    ></script>
+    <script id="wp-i18n-js-after">
+      wp.i18n.setLocaleData({ "text direction\u0004ltr": ["ltr"] });
+    </script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0"
+      id="swv-js"
+    ></script>
+    <script id="contact-form-7-js-translations">
+      (function (domain, translations) {
+        var localeData =
+          translations.locale_data[domain] || translations.locale_data.messages;
+        localeData[""].domain = domain;
+        wp.i18n.setLocaleData(localeData, domain);
+      })("contact-form-7", {
+        "translation-revision-date": "2024-10-17 17:27:10+0000",
+        generator: "GlotPress\/4.0.1",
+        domain: "messages",
+        locale_data: {
+          messages: {
+            "": {
+              domain: "messages",
+              "plural-forms": "nplurals=2; plural=n > 1;",
+              lang: "fr",
+            },
+            "This contact form is placed in the wrong place.": [
+              "Ce formulaire de contact est plac\u00e9 dans un mauvais endroit.",
+            ],
+            "Error:": ["Erreur\u00a0:"],
+          },
+        },
+        comment: { reference: "includes\/js\/index.js" },
+      });
+    </script>
+    <script id="contact-form-7-js-before">
+      var wpcf7 = {
+        api: {
+          root: "http:\/\/localhost\/projet-planty\/wp-json\/",
+          namespace: "contact-form-7\/v1",
+        },
+      };
+    </script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0"
+      id="contact-form-7-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/imagesloaded.min.js?ver=5.0.0"
+      id="imagesloaded-js"
+    ></script>
+    <script id="oceanwp-main-js-extra">
+      var oceanwpLocalize = {
+        nonce: "e907e3c4d0",
+        isRTL: "",
+        menuSearchStyle: "overlay",
+        mobileMenuSearchStyle: "disabled",
+        sidrSource: null,
+        sidrDisplace: "1",
+        sidrSide: "left",
+        sidrDropdownTarget: "link",
+        verticalHeaderTarget: "link",
+        customScrollOffset: "0",
+        customSelects:
+          ".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select",
+        ajax_url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin-ajax.php",
+        oe_mc_wpnonce: "8e69663306",
+      };
+    </script>
+    <script
+      src="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/js/theme.min.js?ver=1.0"
+      id="oceanwp-main-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js?ver=1.0"
+      id="oceanwp-drop-down-mobile-menu-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/js/overlay-search.min.js?ver=1.0"
+      id="oceanwp-overlay-search-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js?ver=1.0"
+      id="ow-magnific-popup-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js?ver=1.0"
+      id="oceanwp-lightbox-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js?ver=1.0"
+      id="ow-flickity-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/js/ow-slider.min.js?ver=1.0"
+      id="oceanwp-slider-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js?ver=1.0"
+      id="oceanwp-scroll-effect-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/js/scroll-top.min.js?ver=1.0"
+      id="oceanwp-scroll-top-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/themes/oceanwp/assets/js/select.min.js?ver=1.0"
+      id="oceanwp-select-js"
+    ></script>
+    <script id="flickr-widget-script-js-extra">
+      var flickrWidgetParams = { widgets: [] };
+    </script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/ocean-extra/includes/widgets/js/flickr.min.js?ver=6.6.2"
+      id="flickr-widget-script-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+      id="jquery-ui-core-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3"
+      id="jquery-ui-mouse-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.3"
+      id="jquery-ui-draggable-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/underscore.min.js?ver=1.13.4"
+      id="underscore-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/backbone.min.js?ver=1.5.0"
+      id="backbone-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?ver=2.4.5.e1"
+      id="backbone-marionette-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?ver=1.0.4"
+      id="backbone-radio-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/elementor/assets/js/common-modules.min.js?ver=3.24.7"
+      id="elementor-common-modules-js"
+    ></script>
+    <script id="elementor-web-cli-js-before">
+      var elementorWebCliConfig = {
+        isDebug: false,
+        urls: {
+          rest: "http:\/\/localhost\/projet-planty\/wp-json\/",
+          assets:
+            "http:\/\/localhost\/projet-planty\/wp-content\/plugins\/elementor\/assets\/",
+        },
+        nonce: "8f9a61f0ed",
+        version: "3.24.7",
+      };
+      var elementorWebCliConfig = {
+        isDebug: false,
+        urls: {
+          rest: "http:\/\/localhost\/projet-planty\/wp-json\/",
+          assets:
+            "http:\/\/localhost\/projet-planty\/wp-content\/plugins\/elementor\/assets\/",
+        },
+        nonce: "8f9a61f0ed",
+        version: "3.24.7",
+      };
+    </script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.24.7"
+      id="elementor-web-cli-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.3"
+      id="elementor-dialog-js"
+    ></script>
+    <script id="wp-api-request-js-extra">
+      var wpApiSettings = {
+        root: "http:\/\/localhost\/projet-planty\/wp-json\/",
+        nonce: "8f9a61f0ed",
+        versionString: "wp\/v2\/",
+      };
+    </script>
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/api-request.min.js?ver=6.6.2"
+      id="wp-api-request-js"
+    ></script>
+    <script id="elementor-dev-tools-js-before">
+      var elementorDevToolsConfig = {
+        isDebug: false,
+        urls: {
+          assets:
+            "http:\/\/localhost\/projet-planty\/wp-content\/plugins\/elementor\/assets\/",
+        },
+        deprecation: {
+          soft_notices: [],
+          soft_version_count: 4,
+          hard_version_count: 8,
+          current_version: "3.24.7",
+        },
+      };
+      var elementorDevToolsConfig = {
+        isDebug: false,
+        urls: {
+          assets:
+            "http:\/\/localhost\/projet-planty\/wp-content\/plugins\/elementor\/assets\/",
+        },
+        deprecation: {
+          soft_notices: [],
+          soft_version_count: 4,
+          hard_version_count: 8,
+          current_version: "3.24.7",
+        },
+      };
+      var elementorDevToolsConfig = {
+        isDebug: false,
+        urls: {
+          assets:
+            "http:\/\/localhost\/projet-planty\/wp-content\/plugins\/elementor\/assets\/",
+        },
+        deprecation: {
+          soft_notices: [],
+          soft_version_count: 4,
+          hard_version_count: 8,
+          current_version: "3.24.7",
+        },
+      };
+    </script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/elementor/assets/js/dev-tools.min.js?ver=3.24.7"
+      id="elementor-dev-tools-js"
+    ></script>
+    <script id="elementor-common-js-translations">
+      (function (domain, translations) {
+        var localeData =
+          translations.locale_data[domain] || translations.locale_data.messages;
+        localeData[""].domain = domain;
+        wp.i18n.setLocaleData(localeData, domain);
+      })("elementor", {
+        "translation-revision-date": "2024-10-16 21:58:50+0000",
+        generator: "GlotPress\/4.0.1",
+        domain: "messages",
+        locale_data: {
+          messages: {
+            "": {
+              domain: "messages",
+              "plural-forms": "nplurals=2; plural=n > 1;",
+              lang: "fr",
+            },
+            "To upload them anyway, ask the site administrator to enable unfiltered file uploads.":
+              [
+                "Pour les t\u00e9l\u00e9verser quand m\u00eame, demandez \u00e0 l\u2019admin du site d\u2019activer le t\u00e9l\u00e9versement de fichiers non filtr\u00e9s.",
+              ],
+            "This is because JSON files may pose a security risk.": [
+              "En effet, les fichiers JSON peuvent pr\u00e9senter un risque de s\u00e9curit\u00e9.",
+            ],
+            "Sorry, you can't upload that file yet": [
+              "D\u00e9sol\u00e9, vous ne pouvez pas encore t\u00e9l\u00e9verser ce fichier",
+            ],
+            "Import Without Enabling": ["Importer sans activer"],
+            "Enable and Import": ["Activer et importer"],
+            "If you do not enable uploading unfiltered files, any SVG or JSON (including lottie) files used in the uploaded template will not be imported.":
+              [
+                "Si vous n\u2019activez pas le t\u00e9l\u00e9versement des fichiers non filtr\u00e9s, tout fichier SVG ou JSON (lottie inclus) utilis\u00e9s dans les mod\u00e8les t\u00e9l\u00e9vers\u00e9s ne seront pas import\u00e9s.",
+              ],
+            "The file exceeds the maximum upload size for this site.": [
+              "La taille du fichier d\u00e9passe la limite de t\u00e9l\u00e9versement autoris\u00e9 pour ce site.",
+            ],
+            "Uploading...": ["T\u00e9l\u00e9versement\u2026"],
+            "Got it": ["J\u2019ai compris"],
+            "Enable Unfiltered File Uploads": [
+              "Permettre les t\u00e9l\u00e9versements de fichier non filtr\u00e9",
+            ],
+            "Unable to connect": ["Impossible de se connecter"],
+            "Before you enable unfiltered files upload, note that such files include a security risk. Elementor does run a process to remove possible malicious code, but there is still risk involved when using such files.":
+              [
+                "Avant d\u2019activer le t\u00e9l\u00e9versement de fichiers non filtr\u00e9s, notez que ce type de fichier comporte un risque de s\u00e9curit\u00e9. Elementor ex\u00e9cute un processus pour supprimer les \u00e9ventuels codes malveillants, mais il y a toujours un risque \u00e0 utiliser ces fichiers.",
+              ],
+            Finder: ["Finder"],
+            Enable: ["Activer"],
+            Cancel: ["Annuler"],
+          },
+        },
+        comment: { reference: "assets\/js\/common.js" },
+      });
+    </script>
+    <script id="elementor-common-js-before">
+      var elementorCommonConfig = {
+        version: "3.24.7",
+        isRTL: false,
+        isDebug: false,
+        isElementorDebug: false,
+        activeModules: ["ajax", "finder", "connect", "event-tracker"],
+        experimentalFeatures: {
+          e_font_icon_svg: true,
+          additional_custom_breakpoints: true,
+          container: true,
+          container_grid: true,
+          e_swiper_latest: true,
+          e_nested_atomic_repeaters: true,
+          e_optimized_control_loading: true,
+          e_onboarding: true,
+          home_screen: true,
+          "ai-layout": true,
+          "nested-elements": true,
+          editor_v2: true,
+          e_element_cache: true,
+          "link-in-bio": true,
+          "floating-buttons": true,
+        },
+        urls: {
+          assets:
+            "http:\/\/localhost\/projet-planty\/wp-content\/plugins\/elementor\/assets\/",
+          rest: "http:\/\/localhost\/projet-planty\/wp-json\/",
+        },
+        filesUpload: { unfilteredFiles: false },
+        library_connect: {
+          is_connected: false,
+          subscription_plans: {
+            free: { label: null, promotion_url: null, color: null },
+            essential: {
+              label: "Pro",
+              promotion_url:
+                "https:\/\/elementor.com\/pro\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+              color: "#92003B",
+            },
+            "essential-oct2023": {
+              label: "Advanced",
+              promotion_url:
+                "https:\/\/elementor.com\/pro\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+              color: "#92003B",
+            },
+            advanced: {
+              label: "Advanced",
+              promotion_url:
+                "https:\/\/elementor.com\/pro\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+              color: "#92003B",
+            },
+            expert: {
+              label: "Expert",
+              promotion_url:
+                "https:\/\/elementor.com\/pro\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+              color: "#92003B",
+            },
+            agency: {
+              label: "Agency",
+              promotion_url:
+                "https:\/\/elementor.com\/pro\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+              color: "#92003B",
+            },
+          },
+          base_access_level: 0,
+          base_access_tier: "free",
+          current_access_level: 0,
+          current_access_tier: "free",
+        },
+        ajax: {
+          url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin-ajax.php",
+          nonce: "9189723f35",
+        },
+        finder: {
+          data: {
+            edit: { title: "Modifier", dynamic: true, name: "edit" },
+            general: {
+              title: "G\u00e9n\u00e9ral",
+              dynamic: false,
+              items: {
+                "saved-templates": {
+                  title: "Mod\u00e8les enregistr\u00e9s",
+                  icon: "library-save",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=library",
+                  keywords: ["template", "section", "page", "library"],
+                },
+                "system-info": {
+                  title: "Informations syst\u00e8me",
+                  icon: "info-circle-o",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-system-info",
+                  keywords: ["system", "info", "environment", "elementor"],
+                },
+                "role-manager": {
+                  title: "Gestionnaire de r\u00f4le",
+                  icon: "person",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-role-manager",
+                  keywords: ["role", "manager", "user", "elementor"],
+                },
+                "knowledge-base": {
+                  title: "Base de connaissances",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=go_knowledge_base_site",
+                  keywords: ["help", "knowledge", "docs", "elementor"],
+                },
+                "theme-builder": {
+                  title: "Constructeur de th\u00e8me",
+                  icon: "library-save",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-app&ver=3.24.7#site-editor\/promotion",
+                  keywords: [
+                    "template",
+                    "header",
+                    "footer",
+                    "single",
+                    "archive",
+                    "search",
+                    "404",
+                    "library",
+                  ],
+                },
+                "kit-library": {
+                  title: "Biblioth\u00e8que de kits",
+                  icon: "kit-parts",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-app&ver=3.24.7#\/kit-library",
+                  keywords: [
+                    "kit library",
+                    "kit",
+                    "library",
+                    "site parts",
+                    "parts",
+                    "assets",
+                    "templates",
+                  ],
+                },
+              },
+              name: "general",
+            },
+            create: {
+              title: "Cr\u00e9er",
+              dynamic: false,
+              items: {
+                page: {
+                  title: "Ajouter un nouveau mod\u00e8le de page",
+                  icon: "plus-circle-o",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=2dc96b340d",
+                  keywords: [
+                    "Ajouter un nouveau mod\u00e8le de page",
+                    "post",
+                    "page",
+                    "template",
+                    "new",
+                    "create",
+                  ],
+                },
+                section: {
+                  title: "Ajouter un Section",
+                  icon: "plus-circle-o",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=section&_wpnonce=2dc96b340d",
+                  keywords: [
+                    "Ajouter un Section",
+                    "post",
+                    "page",
+                    "template",
+                    "new",
+                    "create",
+                  ],
+                },
+                container: {
+                  title: "Ajouter un Conteneur",
+                  icon: "plus-circle-o",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=container&_wpnonce=2dc96b340d",
+                  keywords: [
+                    "Ajouter un Conteneur",
+                    "post",
+                    "page",
+                    "template",
+                    "new",
+                    "create",
+                  ],
+                },
+                "wp-post": {
+                  title: "Ajouter un Article",
+                  icon: "plus-circle-o",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=2dc96b340d",
+                  keywords: [
+                    "Ajouter un Article",
+                    "post",
+                    "page",
+                    "template",
+                    "new",
+                    "create",
+                  ],
+                },
+                "wp-page": {
+                  title: "Ajouter un Page",
+                  icon: "plus-circle-o",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=2dc96b340d",
+                  keywords: [
+                    "Ajouter un Page",
+                    "post",
+                    "page",
+                    "template",
+                    "new",
+                    "create",
+                  ],
+                },
+                "floating-buttons": {
+                  title: "Ajouter un \u00c9l\u00e9ment flottant",
+                  icon: "plus-circle-o",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-floating-buttons&template_type=floating-buttons&_wpnonce=2dc96b340d#library",
+                  keywords: [
+                    "Ajouter un \u00c9l\u00e9ment flottant",
+                    "post",
+                    "page",
+                    "template",
+                    "new",
+                    "create",
+                  ],
+                },
+                oceanwp_library: {
+                  title: "Ajouter un Mod\u00e8le",
+                  icon: "plus-circle-o",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/edit.php?action=elementor_new_post&post_type=oceanwp_library&_wpnonce=2dc96b340d",
+                  keywords: [
+                    "Ajouter un Mod\u00e8le",
+                    "post",
+                    "page",
+                    "template",
+                    "new",
+                    "create",
+                  ],
+                },
+                "elementor-hf": {
+                  title: "Ajouter un Elementor Header &amp; Footer Builder",
+                  icon: "plus-circle-o",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor-hf&_wpnonce=2dc96b340d",
+                  keywords: [
+                    "Ajouter un Elementor Header &amp; Footer Builder",
+                    "post",
+                    "page",
+                    "template",
+                    "new",
+                    "create",
+                  ],
+                },
+              },
+              name: "create",
+            },
+            site: {
+              title: "Site",
+              dynamic: false,
+              items: {
+                homepage: {
+                  title: "Page d\u2019accueil",
+                  url: "http:\/\/localhost\/projet-planty",
+                  icon: "home-heart",
+                  keywords: ["home", "page"],
+                },
+                "wordpress-dashboard": {
+                  title: "Tableau de bord",
+                  icon: "dashboard",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/",
+                  keywords: ["dashboard", "wordpress"],
+                },
+                "wordpress-menus": {
+                  title: "Menus",
+                  icon: "wordpress",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/nav-menus.php",
+                  keywords: ["menu", "wordpress"],
+                },
+                "wordpress-themes": {
+                  title: "Th\u00e8mes",
+                  icon: "wordpress",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/themes.php",
+                  keywords: ["themes", "wordpress"],
+                },
+                "wordpress-customizer": {
+                  title: "Outil de personnalisation",
+                  icon: "wordpress",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/customize.php",
+                  keywords: ["customizer", "wordpress"],
+                },
+                "wordpress-plugins": {
+                  title: "Extensions",
+                  icon: "wordpress",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/plugins.php",
+                  keywords: ["plugins", "wordpress"],
+                },
+                "wordpress-users": {
+                  title: "Utilisateurs\/utilisatrices",
+                  icon: "wordpress",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/users.php",
+                  keywords: ["users", "profile", "wordpress"],
+                },
+                apps: {
+                  title: "Modules",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-apps",
+                  icon: "apps",
+                  keywords: [
+                    "apps",
+                    "addon",
+                    "plugin",
+                    "extension",
+                    "integration",
+                  ],
+                },
+              },
+              name: "site",
+            },
+            settings: {
+              title: "R\u00e9glages",
+              dynamic: false,
+              items: {
+                "general-settings": {
+                  title: "R\u00e9glages g\u00e9n\u00e9raux",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-settings#tab-general",
+                  keywords: ["general", "settings", "elementor"],
+                },
+                integrations: {
+                  title: "Int\u00e9grations",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-settings#tab-integrations",
+                  keywords: ["integrations", "settings", "elementor"],
+                },
+                advanced: {
+                  title: "Avanc\u00e9",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-settings#tab-advanced",
+                  keywords: ["advanced", "settings", "elementor"],
+                },
+                performance: {
+                  title: "Performance",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-settings#tab-performance",
+                  keywords: ["performance", "settings", "elementor"],
+                },
+                experiments: {
+                  title: "Exp\u00e9riences",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-settings#tab-experiments",
+                  keywords: ["settings", "elementor", "experiments"],
+                },
+                features: {
+                  title: "Fonctionnalit\u00e9s",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-settings#tab-experiments",
+                  keywords: ["settings", "elementor", "features"],
+                },
+                "element-manager": {
+                  title: "Gestionnaire d\u2019\u00e9l\u00e9ment",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-element-manager",
+                  keywords: ["settings", "elements", "widgets", "manager"],
+                },
+              },
+              name: "settings",
+            },
+            tools: {
+              title: "Outils",
+              dynamic: false,
+              items: {
+                tools: {
+                  title: "Outils",
+                  icon: "tools",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-tools",
+                  keywords: [
+                    "tools",
+                    "regenerate css",
+                    "safe mode",
+                    "debug bar",
+                    "sync library",
+                    "elementor",
+                  ],
+                },
+                "replace-url": {
+                  title: "Remplacement d\u2019URL",
+                  icon: "tools",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-tools#tab-replace_url",
+                  keywords: ["tools", "replace url", "domain", "elementor"],
+                },
+                "maintenance-mode": {
+                  title: "Mode maintenance",
+                  icon: "tools",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-tools#tab-maintenance_mode",
+                  keywords: [
+                    "tools",
+                    "maintenance",
+                    "coming soon",
+                    "elementor",
+                  ],
+                },
+                "import-export": {
+                  title: "Importer exporter",
+                  icon: "import-export",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-tools#tab-import-export-kit",
+                  keywords: [
+                    "tools",
+                    "import export",
+                    "import",
+                    "export",
+                    "kit",
+                  ],
+                },
+                "version-control": {
+                  title: "Contr\u00f4le de version",
+                  icon: "time-line",
+                  url: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-tools#tab-versions",
+                  keywords: [
+                    "tools",
+                    "version",
+                    "control",
+                    "rollback",
+                    "beta",
+                    "elementor",
+                  ],
+                },
+              },
+              name: "tools",
+            },
+          },
+        },
+        connect: [],
+        "event-tracker": { isUserDataShared: false },
+      };
+    </script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/elementor/assets/js/common.min.js?ver=3.24.7"
+      id="elementor-common-js"
+    ></script>
+    <script id="elementor-app-loader-js-before">
+      var elementorAppConfig = {
+        menu_url:
+          "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-app&ver=3.24.7#site-editor\/promotion",
+        assets_url:
+          "http:\/\/localhost\/projet-planty\/wp-content\/plugins\/elementor\/assets\/",
+        pages_url:
+          "http:\/\/localhost\/projet-planty\/wp-admin\/edit.php?post_type=page",
+        return_url: "http:\/\/localhost\/projet-planty\/wp-admin\/",
+        hasPro: false,
+        admin_url: "http:\/\/localhost\/projet-planty\/wp-admin\/",
+        login_url: "http:\/\/localhost\/projet-planty\/wp-login.php",
+        base_url:
+          "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-app&ver=3.24.7",
+        promotion: {
+          upgrade_url: "https:\/\/go.elementor.com\/go-pro-theme-builder\/",
+        },
+        "site-editor": [],
+        "import-export": [],
+        "kit-library": [],
+        onboarding: [],
+      };
+    </script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.24.7"
+      id="elementor-app-loader-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.44"
+      id="hfe-frontend-js-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.24.7"
+      id="elementor-webpack-runtime-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.24.7"
+      id="elementor-frontend-modules-js"
+    ></script>
+    <script id="elementor-frontend-js-before">
+      var elementorFrontendConfig = {
+        environmentMode: {
+          edit: false,
+          wpPreview: false,
+          isScriptDebug: false,
+        },
+        i18n: {
+          shareOnFacebook: "Partager sur Facebook",
+          shareOnTwitter: "Partager sur Twitter",
+          pinIt: "L\u2019\u00e9pingler",
+          download: "T\u00e9l\u00e9charger",
+          downloadImage: "T\u00e9l\u00e9charger une image",
+          fullscreen: "Plein \u00e9cran",
+          zoom: "Zoom",
+          share: "Partager",
+          playVideo: "Lire la vid\u00e9o",
+          previous: "Pr\u00e9c\u00e9dent",
+          next: "Suivant",
+          close: "Fermer",
+          a11yCarouselWrapperAriaLabel:
+            "Carousel | Scroll horizontal: Fl\u00e8che gauche & droite",
+          a11yCarouselPrevSlideMessage: "Diapositive pr\u00e9c\u00e9dente",
+          a11yCarouselNextSlideMessage: "Diapositive suivante",
+          a11yCarouselFirstSlideMessage:
+            "Ceci est la premi\u00e8re diapositive",
+          a11yCarouselLastSlideMessage: "Ceci est la derni\u00e8re diapositive",
+          a11yCarouselPaginationBulletMessage: "Aller \u00e0 la diapositive",
+        },
+        is_rtl: false,
+        breakpoints: { xs: 0, sm: 480, md: 768, lg: 1025, xl: 1440, xxl: 1600 },
+        responsive: {
+          breakpoints: {
+            mobile: {
+              label: "Portrait mobile",
+              value: 767,
+              default_value: 767,
+              direction: "max",
+              is_enabled: true,
+            },
+            mobile_extra: {
+              label: "Mobile Paysage",
+              value: 880,
+              default_value: 880,
+              direction: "max",
+              is_enabled: false,
+            },
+            tablet: {
+              label: "Tablette en mode portrait",
+              value: 1024,
+              default_value: 1024,
+              direction: "max",
+              is_enabled: true,
+            },
+            tablet_extra: {
+              label: "Tablette en mode paysage",
+              value: 1200,
+              default_value: 1200,
+              direction: "max",
+              is_enabled: false,
+            },
+            laptop: {
+              label: "Portable",
+              value: 1366,
+              default_value: 1366,
+              direction: "max",
+              is_enabled: false,
+            },
+            widescreen: {
+              label: "\u00c9cran large",
+              value: 2400,
+              default_value: 2400,
+              direction: "min",
+              is_enabled: false,
+            },
+          },
+          hasCustomBreakpoints: false,
+        },
+        version: "3.24.7",
+        is_static: false,
+        experimentalFeatures: {
+          e_font_icon_svg: true,
+          additional_custom_breakpoints: true,
+          container: true,
+          container_grid: true,
+          e_swiper_latest: true,
+          e_nested_atomic_repeaters: true,
+          e_optimized_control_loading: true,
+          e_onboarding: true,
+          home_screen: true,
+          "ai-layout": true,
+          "nested-elements": true,
+          editor_v2: true,
+          e_element_cache: true,
+          "link-in-bio": true,
+          "floating-buttons": true,
+        },
+        urls: {
+          assets:
+            "http:\/\/localhost\/projet-planty\/wp-content\/plugins\/elementor\/assets\/",
+          ajaxurl:
+            "http:\/\/localhost\/projet-planty\/wp-admin\/admin-ajax.php",
+          uploadUrl: "http:\/\/localhost\/projet-planty\/wp-content\/uploads",
+        },
+        nonces: { floatingButtonsClickTracking: "54e6456303" },
+        swiperClass: "swiper",
+        settings: { page: [], editorPreferences: [] },
+        kit: {
+          active_breakpoints: ["viewport_mobile", "viewport_tablet"],
+          global_image_lightbox: "yes",
+          lightbox_enable_counter: "yes",
+          lightbox_enable_fullscreen: "yes",
+          lightbox_enable_zoom: "yes",
+          lightbox_enable_share: "yes",
+          lightbox_title_src: "title",
+          lightbox_description_src: "description",
+        },
+        post: { id: 599, title: "Planty", excerpt: "", featuredImage: false },
+        user: { roles: ["administrator"] },
+      };
+    </script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.24.7"
+      id="elementor-frontend-js"
+    ></script>
+    <script id="elementor-admin-bar-js-before">
+      var elementorAdminBarConfig = {
+        elementor_edit_page: {
+          id: "elementor_edit_page",
+          title: "Modifier avec Elementor",
+          href: "http:\/\/localhost\/projet-planty\/wp-admin\/post.php?post=599&action=elementor",
+          children: {
+            17: {
+              id: "elementor_edit_doc_17",
+              title: "Header",
+              sub_title: "Article",
+              href: "http:\/\/localhost\/projet-planty\/wp-admin\/post.php?post=17&action=elementor",
+            },
+            2348: {
+              id: "elementor_edit_doc_2348",
+              title: "Footer",
+              sub_title: "Article",
+              href: "http:\/\/localhost\/projet-planty\/wp-admin\/post.php?post=2348&action=elementor",
+            },
+            2349: {
+              id: "elementor_site_settings",
+              title: "R\u00e9glages du site",
+              sub_title: "Site",
+              href: "http:\/\/localhost\/projet-planty\/wp-admin\/post.php?post=599&action=elementor&active-document=9",
+              class: "elementor-site-settings",
+              parent_class: "elementor-second-section",
+            },
+            2350: {
+              id: "elementor_app_site_editor",
+              title: "Constructeur de th\u00e8me",
+              sub_title: "Site",
+              href: "http:\/\/localhost\/projet-planty\/wp-admin\/admin.php?page=elementor-app&ver=3.24.7#site-editor\/promotion",
+              class: "elementor-app-link",
+              parent_class: "elementor-second-section",
+            },
+          },
+        },
+      };
+    </script>
+    <script
+      src="http://localhost/projet-planty/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.24.7"
+      id="elementor-admin-bar-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/hoverintent-js.min.js?ver=2.2.1"
+      id="hoverintent-js-js"
+    ></script>
+    <script
+      src="http://localhost/projet-planty/wp-includes/js/admin-bar.min.js?ver=6.6.2"
+      id="admin-bar-js"
+    ></script>
+  </body>
+</html>
