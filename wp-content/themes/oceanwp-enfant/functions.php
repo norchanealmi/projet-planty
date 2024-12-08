@@ -13,24 +13,19 @@ function oceanwp_enfant_enqueue_styles() {
 // Ajouter la fonction à l'aide de l'action 'wp_enqueue_scripts'
 add_action('wp_enqueue_scripts', 'oceanwp_enfant_enqueue_styles');
 
-/**
- * Fonction pour ajouter un lien "Admin" dans le menu si l'utilisateur est connecté.
- *
- * @param string $items Les éléments HTML du menu.
- * @param object $args  Les arguments du menu.
- * @return string        Les éléments du menu avec le lien "Admin" ajouté.
- */
+
+
+
+
+
 function ajouter_lien_admin($items, $args) {
     // Vérifier si l'utilisateur est connecté
     if (is_user_logged_in()) {
-        // Ajouter un élément de menu pour accéder au tableau de bord d'administration
-        $items .= '<li class="menu-item"><a href="' . esc_url(admin_url()) . '">Admin</a></li>';
+        // Ajouter un lien "Admin" à la fin du menu
+        $items .= '<li class="menu-item menu-item-admin"><a href="' . esc_url(admin_url()) . '">Admin</a></li>';
     }
-
     return $items;
 }
-
-// Ajouter la fonction à l'aide du filtre 'wp_nav_menu_items'
 add_filter('wp_nav_menu_items', 'ajouter_lien_admin', 10, 2);
 
 
